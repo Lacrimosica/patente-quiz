@@ -1,0 +1,9 @@
+name = "patente-quiz"
+main = "src/server/index.ts"
+compatibility_date = "2024-09-23"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "patente-quiz"
+# Replace with real ID from `wrangler d1 create patente-quiz` before deploying remotely.
+database_id = "00000000-0000-0000-0000-000000000000"

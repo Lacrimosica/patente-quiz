@@ -1,0 +1,33 @@
+{
+  "name": "patente-quiz",
+  "version": "0.1.0",
+  "description": "Local-first study tool for Italian driving license theory exam practice questions",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "db:init": "tsx --experimental-sqlite src/scripts/init-db.ts",
+    "import": "tsx --experimental-sqlite src/scripts/import.ts",
+    "dev:server": "tsx watch --experimental-sqlite src/server/index.ts",
+    "dev:client": "vite --config src/client/vite.config.ts src/client",
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\""
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^9.0.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  }
+}

@@ -3,3 +3,8 @@ data/db/
 data/seed.sql
 dist/
 .wrangler/
+lessons
+assets
+MISSION.md
+NOTES.md
+learning-records

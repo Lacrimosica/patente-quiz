@@ -2,46 +2,3708 @@
   "chapter": 1,
   "chapterTitle": "La persona alla guida",
   "questions": [
-    { "number": 9, "question_it": "L'udito non è un senso importante quando si guida", "answer": false, "topic": "senses", "source_page": 14 },
-    { "number": 10, "question_it": "I conducenti di autoveicoli trainanti un rimorchio, quando la massa complessiva a pieno carico del complesso veicolare è superiore a 3,5 tonnellate, sono considerati in stato di ebbrezza qualora sia stato accertato un valore corrispondente ad un tasso alcolemico superiore a zero grammi per litro", "answer": true, "topic": "alcohol", "source_page": 14 },
-    { "number": 11, "question_it": "È opportuno, per il conducente che accusa segni di stanchezza, raggiungere la più vicina piazzola di sosta e riposare", "answer": true, "topic": "fatigue", "source_page": 14 },
-    { "number": 12, "question_it": "È opportuno, per il conducente che accusa segni di stanchezza, avvicinarsi il più possibile al veicolo che lo precede nella marcia", "answer": false, "topic": "fatigue", "source_page": 14 },
-    { "number": 13, "question_it": "È necessario che trascorrano alcune ore affinché un conducente che abbia assunto una quantità eccessiva di bevande alcoliche recuperi l'idoneità alla guida", "answer": true, "topic": "alcohol", "source_page": 14 },
-    { "number": 30, "question_it": "Un'alimentazione pesante ed eccessiva è sconsigliata per chi deve guidare", "answer": true, "topic": "nutrition", "source_page": 14 },
-    { "number": 36, "question_it": "Chi guida un veicolo senza motore, con una concentrazione di alcool nel sangue superiore al limite stabilito, non è soggetto ad alcuna sanzione", "answer": false, "topic": "alcohol", "source_page": 15 },
-    { "number": 48, "question_it": "L'ansia può ridurre la capacità di prestare attenzione ai pericoli", "answer": true, "topic": "stress", "source_page": 15 },
-    { "number": 52, "question_it": "Un conducente deve sempre sottostimare le situazioni di pericolo per non farsi travolgere dall'ansia durante la guida", "answer": false, "topic": "stress", "source_page": 15 },
-    { "number": 53, "question_it": "Bere un liquore ad alta gradazione alcolica permette di migliorare l'attenzione dopo circa 10 minuti dall'ingestione", "answer": false, "topic": "alcohol", "source_page": 15 },
-    { "number": 55, "question_it": "La quantità di attenzione che si può prestare alla strada mentre si guida è illimitata", "answer": false, "topic": "attention", "source_page": 15 },
-    { "number": 60, "question_it": "In caso di tamponamento tra veicoli in corrispondenza di un passaggio a livello, non si devono spostare i veicoli dai binari qualora vi siano stati feriti", "answer": false, "topic": "emergency-response", "source_page": 15 },
-    { "number": 61, "question_it": "Soccorrere un ferito della strada può significare salvargli la vita", "answer": true, "topic": "first-aid-general", "source_page": 15 },
-    { "number": 62, "question_it": "Soccorrere subito un ferito della strada può evitare che subisca ulteriori danni fisici", "answer": true, "topic": "first-aid-general", "source_page": 15 },
-    { "number": 63, "question_it": "Soccorrere un ferito della strada non è un obbligo imposto dalla legge, ma solo un dovere morale", "answer": false, "topic": "first-aid-general", "source_page": 15 },
-    { "number": 64, "question_it": "Bisogna soccorrere un ferito della strada solo se si considera grave l'incidente", "answer": false, "topic": "first-aid-general", "source_page": 15 },
-    { "number": 65, "question_it": "Non è obbligatorio soccorrere un ferito della strada, se per farlo, si crea intralcio alla circolazione", "answer": false, "topic": "first-aid-general", "source_page": 15 },
-    { "number": 67, "question_it": "Non è obbligatorio soccorrere un ferito della strada, per non mettere a repentaglio la propria sicurezza", "answer": false, "topic": "first-aid-general", "source_page": 16 },
-    { "number": 74, "question_it": "Durante un intervento di primo soccorso non bisogna mai toccare il ferito se non è ancora arrivata la polizia", "answer": false, "topic": "first-aid-general", "source_page": 16 },
-    { "number": 75, "question_it": "Se un infortunato della strada ha una ferita sanguinante la si deve coprire con materiale sterile o quanto più possibile pulito, per bloccare il sanguinamento", "answer": true, "topic": "first-aid-wounds", "source_page": 16 },
-    { "number": 76, "question_it": "Se un infortunato della strada ha una ferita sanguinante, sporca di terra, bisogna lavarla quanto prima con acqua pulita", "answer": true, "topic": "first-aid-wounds", "source_page": 16 },
-    { "number": 78, "question_it": "Se un infortunato della strada ha una ferita sanguinante, bisogna tamponarla con garze sterili o panni puliti", "answer": true, "topic": "first-aid-wounds", "source_page": 16 },
-    { "number": 83, "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna tamponare la ferita e chiamare subito i soccorsi", "answer": true, "topic": "first-aid-hemorrhage", "source_page": 16 },
-    { "number": 86, "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna è opportuno, se possibile, mettere il ferito in posizione seduta o sdraiata, in attesa che arrivino i soccorsi", "answer": true, "topic": "first-aid-hemorrhage", "source_page": 16 },
-    { "number": 87, "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna solo medicare la ferita", "answer": false, "topic": "first-aid-hemorrhage", "source_page": 16 },
-    { "number": 89, "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna non si può assolutamente dargli da bere acqua", "answer": false, "topic": "first-aid-hemorrhage", "source_page": 16 },
-    { "number": 90, "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio (scheggia di vetro, legno o altro), bisogna bendarglielo, senza procedere ad altre manovre", "answer": true, "topic": "first-aid-eye", "source_page": 16 },
-    { "number": 91, "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna consigliargli di non toccare l'occhio danneggiato, per evitare danni maggiori", "answer": true, "topic": "first-aid-eye", "source_page": 16 },
-    { "number": 92, "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna bendarglielo, evitando di toccarlo fino all'intervento dello specialista", "answer": true, "topic": "first-aid-eye", "source_page": 16 },
-    { "number": 94, "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna costringerlo a tenere gli occhi aperti, per evitare altre lesioni", "answer": false, "topic": "first-aid-eye", "source_page": 17 },
-    { "number": 104, "question_it": "Lo stato di shock si manifesta con comparsa di colorito rosso della pelle e forti vampate di calore", "answer": false, "topic": "shock", "source_page": 17 },
-    { "number": 108, "question_it": "In presenza di un ferito in stato di shock, occorre farlo camminare, per riattivargli la circolazione del sangue", "answer": false, "topic": "shock", "source_page": 17 },
-    { "number": 109, "question_it": "Un ferito in stato di shock va messo in posizione seduta", "answer": false, "topic": "shock", "source_page": 17 },
-    { "number": 114, "question_it": "Se un ferito della strada è in stato di incoscienza e fa fatica a respirare, bisogna liberare subito il naso e la bocca da eventuali ostruzioni", "answer": true, "topic": "first-aid-unconscious", "source_page": 17 },
-    { "number": 117, "question_it": "Se un ferito della strada è in stato di incoscienza bisogna bloccargli le mani", "answer": false, "topic": "first-aid-unconscious", "source_page": 17 },
-    { "number": 118, "question_it": "Se un ferito della strada è in stato di incoscienza bisogna fasciargli la testa", "answer": false, "topic": "first-aid-unconscious", "source_page": 17 },
-    { "number": 119, "question_it": "Se un ferito della strada è in stato di incoscienza bisogna metterlo in posizione semiseduta", "answer": false, "topic": "first-aid-unconscious", "source_page": 17 },
-    { "number": 120, "question_it": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, bisogna cercare di facilitargli la respirazione mettendolo semi-seduto", "answer": true, "topic": "chest-trauma", "source_page": 17 },
-    { "number": 121, "question_it": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, con ferita visibile e profonda, bisogna comprimere subito con un panno pulito", "answer": false, "topic": "chest-trauma", "source_page": 17 },
-    { "number": 122, "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna assisterlo fino all'arrivo del soccorso medico", "answer": true, "topic": "chest-trauma", "source_page": 17 },
-    { "number": 123, "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna fargli fare profondi respiri", "answer": false, "topic": "chest-trauma", "source_page": 17 }
+    {
+      "number": 1,
+      "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente si trova indicato tale obbligo",
+      "answer": true,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 2,
+      "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente è stato inserito il codice armonizzato \"01\"",
+      "answer": true,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 3,
+      "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente figura, per esteso o sotto forma di codice, tale obbligo",
+      "answer": true,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 4,
+      "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto quando è indicato sulla patente",
+      "answer": true,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 5,
+      "question_it": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto solo quando la miopia supera 6 diottrie",
+      "answer": false,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 6,
+      "question_it": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto da mezz'ora dopo il tramonto del sole a mezz'ora prima del suo sorgere",
+      "answer": false,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 7,
+      "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto soltanto in caso di scarsa visibilità",
+      "answer": false,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 8,
+      "question_it": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto soltanto sulle autostrade e sulle strade extraurbane principali",
+      "answer": false,
+      "topic": "occhiali_lenti",
+      "source_page": 14
+    },
+    {
+      "number": 9,
+      "question_it": "L'udito non è un senso importante quando si guida",
+      "answer": false,
+      "topic": "senses",
+      "source_page": 14
+    },
+    {
+      "number": 10,
+      "question_it": "I conducenti di autoveicoli trainanti un rimorchio, quando la massa complessiva a pieno carico del complesso veicolare è superiore a 3,5 tonnellate, sono considerati in stato di ebbrezza qualora sia stato accertato un valore corrispondente ad un tasso alcolemico superiore a zero grammi per litro",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 11,
+      "question_it": "È opportuno, per il conducente che accusa segni di stanchezza, raggiungere la più vicina piazzola di sosta e riposare",
+      "answer": true,
+      "topic": "fatica",
+      "source_page": 14
+    },
+    {
+      "number": 12,
+      "question_it": "È opportuno, per il conducente che accusa segni di stanchezza, avvicinarsi il più possibile al veicolo che lo precede nella marcia",
+      "answer": false,
+      "topic": "fatica",
+      "source_page": 14
+    },
+    {
+      "number": 13,
+      "question_it": "È necessario che trascorrano alcune ore affinché un conducente che abbia assunto una quantità eccessiva di bevande alcoliche recuperi l'idoneità alla guida",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 14,
+      "question_it": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche non può recuperare velocemente l'idoneità alla guida, specie se ha assunto anche dei farmaci",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 15,
+      "question_it": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume cibi piuttosto salati",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 16,
+      "question_it": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume caffè amaro",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 17,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di alcuni farmaci sedativi",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 18,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di farmaci antidepressivi",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 19,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di allucinogeni (LSD, ecstasy, ecc.)",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 20,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di bevande alcoliche",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 21,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di caffè amaro",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 22,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di bevande gassate",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 23,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di integratori di sali minerali",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 24,
+      "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di integratori alimentari",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 25,
+      "question_it": "L'assunzione di hashish o di marijuana può compromettere la facoltà di guida",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 26,
+      "question_it": "L'assunzione di eroina o di cocaina può compromettere la facoltà di guida",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 27,
+      "question_it": "Nei farmaci sedativi sono presenti alcune sostanze che possono compromettere la facoltà di guida",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 28,
+      "question_it": "L'assunzione di LSD o l'anfetamina non compromette la facoltà di guida",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 29,
+      "question_it": "L'assunzione di hashish o di marijuana non compromette la facoltà di guida",
+      "answer": false,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 14
+    },
+    {
+      "number": 30,
+      "question_it": "Un'alimentazione pesante ed eccessiva è sconsigliata per chi deve guidare",
+      "answer": true,
+      "topic": "nutrition",
+      "source_page": 14
+    },
+    {
+      "number": 31,
+      "question_it": "L'alimentazione con cibi di difficile digestione può provocare una diminuzione dell'attenzione e un aumento dei tempi di reazione",
+      "answer": true,
+      "topic": "alcol_farmaci_droghe",
+      "source_page": 15
+    },
+    {
+      "number": 32,
+      "question_it": "L'assunzione di bevande superalcoliche, durante un pasto abbondante non compromette la facoltà di guida",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 33,
+      "question_it": "L'alcool può causare uno stato di euforia, con conseguente sottovalutazione del pericolo",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 34,
+      "question_it": "Chi guida in stato di ebbrezza alcolica rischia l'arresto",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 35,
+      "question_it": "È sconsigliabile guidare quando si ha uno stato emotivo alterato",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 36,
+      "question_it": "Chi guida un veicolo senza motore, con una concentrazione di alcool nel sangue superiore al limite stabilito, non è soggetto ad alcuna sanzione",
+      "answer": false,
+      "topic": "alcohol",
+      "source_page": 15
+    },
+    {
+      "number": 37,
+      "question_it": "Chi guida in stato di ebbrezza alcolica ha tempi di reazione più rapidi",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 38,
+      "question_it": "L'assunzione di alcool rende meno sicura la guida, poiché può provocare eccitazione e imprudenza",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 39,
+      "question_it": "L'assunzione di alcool rende meno sicura la guida, perché può rallentare i riflessi",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 40,
+      "question_it": "L'assunzione di alcool rende meno sicura la guida, perché può provocare sonnolenza",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 41,
+      "question_it": "L'assunzione di alcool rende meno sicura la guida, perché può modificare pericolosamente la capacità di concentrazione e attenzione",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 42,
+      "question_it": "L'assunzione di alcool può far diminuire il livello di attenzione",
+      "answer": true,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 43,
+      "question_it": "L'assunzione di alcool rende più sicura la guida, perché annulla la stanchezza",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 44,
+      "question_it": "L'assunzione di alcool facilita la guida, perché fa aumentare la capacità di concentrazione",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 45,
+      "question_it": "L'assunzione di alcool facilita la guida, perché rende più vigili e attenti",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 46,
+      "question_it": "L'assunzione di alcool rende la guida più sicura, più allegra e meno noiosa",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 47,
+      "question_it": "L'assunzione di alcool migliora la vista",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 48,
+      "question_it": "L'ansia può ridurre la capacità di prestare attenzione ai pericoli",
+      "answer": true,
+      "topic": "stress",
+      "source_page": 15
+    },
+    {
+      "number": 49,
+      "question_it": "Quando si è alla guida, la capacità di attenzione può essere influenzata anche dall'ascolto di musica a volume molto alto",
+      "answer": true,
+      "topic": "attenzione_guida",
+      "source_page": 15
+    },
+    {
+      "number": 50,
+      "question_it": "Parlare animosamente con altre persone a bordo del veicolo può influenzare negativamente il comportamento di guida",
+      "answer": true,
+      "topic": "attenzione_guida",
+      "source_page": 15
+    },
+    {
+      "number": 51,
+      "question_it": "I nostri sensi non riescono a cogliere tutti gli stimoli presenti nell'ambiente",
+      "answer": true,
+      "topic": "attenzione_guida",
+      "source_page": 15
+    },
+    {
+      "number": 52,
+      "question_it": "Un conducente deve sempre sottostimare le situazioni di pericolo per non farsi travolgere dall'ansia durante la guida",
+      "answer": false,
+      "topic": "stress",
+      "source_page": 15
+    },
+    {
+      "number": 53,
+      "question_it": "Bere un liquore ad alta gradazione alcolica permette di migliorare l'attenzione dopo circa 10 minuti dall'ingestione",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 54,
+      "question_it": "Se si è stato di ebbrezza lieve, si riesce a guidare comunque in sicurezza",
+      "answer": false,
+      "topic": "alcol",
+      "source_page": 15
+    },
+    {
+      "number": 55,
+      "question_it": "La quantità di attenzione che si può prestare alla strada mentre si guida è illimitata",
+      "answer": false,
+      "topic": "attenzione_guida",
+      "source_page": 15
+    },
+    {
+      "number": 56,
+      "question_it": "Con 0,5 grammi per litro di alcool nel sangue si riesce a concentrarsi meglio",
+      "answer": false,
+      "topic": "attenzione_percezione",
+      "source_page": 15
+    },
+    {
+      "number": 57,
+      "question_it": "I nostri sensi riescono a cogliere tutti gli stimoli presenti nell'ambiente",
+      "answer": false,
+      "topic": "attenzione_percezione",
+      "source_page": 15
+    },
+    {
+      "number": 58,
+      "question_it": "I nostri sensi sono in grado di percepire stimoli di qualunque intensità",
+      "answer": false,
+      "topic": "attenzione_percezione",
+      "source_page": 15
+    },
+    {
+      "number": 59,
+      "question_it": "In condizioni di traffico intenso lo stress può aiutare il conducente a mantenersi vigile",
+      "answer": false,
+      "topic": "attenzione_percezione",
+      "source_page": 15
+    },
+    {
+      "number": 60,
+      "question_it": "In caso di tamponamento tra veicoli in corrispondenza di un passaggio a livello, non si devono spostare i veicoli dai binari qualora vi siano stati feriti",
+      "answer": false,
+      "topic": "emergency-response",
+      "source_page": 15
+    },
+    {
+      "number": 61,
+      "question_it": "Soccorrere un ferito della strada può significare salvargli la vita",
+      "answer": true,
+      "topic": "first-aid-general",
+      "source_page": 15
+    },
+    {
+      "number": 62,
+      "question_it": "Soccorrere subito un ferito della strada può evitare che subisca ulteriori danni fisici",
+      "answer": true,
+      "topic": "first-aid-general",
+      "source_page": 15
+    },
+    {
+      "number": 63,
+      "question_it": "Soccorrere un ferito della strada non è un obbligo imposto dalla legge, ma solo un dovere morale",
+      "answer": false,
+      "topic": "first-aid-general",
+      "source_page": 15
+    },
+    {
+      "number": 64,
+      "question_it": "Bisogna soccorrere un ferito della strada solo se si considera grave l'incidente",
+      "answer": false,
+      "topic": "first-aid-general",
+      "source_page": 15
+    },
+    {
+      "number": 65,
+      "question_it": "Non è obbligatorio soccorrere un ferito della strada, se per farlo, si crea intralcio alla circolazione",
+      "answer": false,
+      "topic": "first-aid-general",
+      "source_page": 15
+    },
+    {
+      "number": 67,
+      "question_it": "Non è obbligatorio soccorrere un ferito della strada, per non mettere a repentaglio la propria sicurezza",
+      "answer": false,
+      "topic": "first-aid-general",
+      "source_page": 16
+    },
+    {
+      "number": 68,
+      "question_it": "Il fine del primo soccorso è quello di cercare di mantenere in vita il ferito con semplici e immediati interventi",
+      "answer": true,
+      "topic": "primo_soccorso",
+      "source_page": 16
+    },
+    {
+      "number": 73,
+      "question_it": "Nell'intervento di primo soccorso bisogna allontanare in ogni caso il ferito dal posto in cui si trova",
+      "answer": false,
+      "topic": "primo_soccorso",
+      "source_page": 16
+    },
+    {
+      "number": 74,
+      "question_it": "Durante un intervento di primo soccorso non bisogna mai toccare il ferito se non è ancora arrivata la polizia",
+      "answer": false,
+      "topic": "first-aid-general",
+      "source_page": 16
+    },
+    {
+      "number": 75,
+      "question_it": "Se un infortunato della strada ha una ferita sanguinante la si deve coprire con materiale sterile o quanto più possibile pulito, per bloccare il sanguinamento",
+      "answer": true,
+      "topic": "first-aid-wounds",
+      "source_page": 16
+    },
+    {
+      "number": 76,
+      "question_it": "Se un infortunato della strada ha una ferita sanguinante, sporca di terra, bisogna lavarla quanto prima con acqua pulita",
+      "answer": true,
+      "topic": "first-aid-wounds",
+      "source_page": 16
+    },
+    {
+      "number": 77,
+      "question_it": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguinante, con presenza di corpi estranei conficcati, non bisogna toglierli dalla ferita",
+      "answer": true,
+      "topic": "primo_soccorso_ferite",
+      "source_page": 16
+    },
+    {
+      "number": 78,
+      "question_it": "Se un infortunato della strada ha una ferita sanguinante, bisogna tamponarla con garze sterili o panni puliti",
+      "answer": true,
+      "topic": "first-aid-wounds",
+      "source_page": 16
+    },
+    {
+      "number": 79,
+      "question_it": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguinante, si devono togliere subito gli eventuali corpi estranei in essa presenti e, successivamente, coprire la ferita",
+      "answer": false,
+      "topic": "primo_soccorso_ferite",
+      "source_page": 16
+    },
+    {
+      "number": 80,
+      "question_it": "Se un infortunato della strada ha una ferita sanguinante ed è incosciente, bisogna dargli da bere acqua o tè",
+      "answer": false,
+      "topic": "primo_soccorso_ferite",
+      "source_page": 16
+    },
+    {
+      "number": 81,
+      "question_it": "Se un infortunato della strada ha una ferita sanguinante non bisogna coprirla, per facilitare l'arresto spontaneo del sangue",
+      "answer": false,
+      "topic": "primo_soccorso_ferite",
+      "source_page": 16
+    },
+    {
+      "number": 82,
+      "question_it": "Se un infortunato della strada ha una ferita sanguinante si deve versarvi sopra acqua calda, per fermare il sanguinamento",
+      "answer": false,
+      "topic": "primo_soccorso_ferite",
+      "source_page": 16
+    },
+    {
+      "number": 83,
+      "question_it": "Se un infortunato della strada ha abbondante emoragggia esterna, si deve tamponare subito la eferita, facendo pressione con del materiale pulito o possibilmente sterile",
+      "answer": true,
+      "topic": "primo_soccorso_emorragia",
+      "source_page": 16
+    },
+    {
+      "number": 84,
+      "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve tamponare subito la ferita, facendo pressione con del materiale pulito o possibilmente sterile",
+      "answer": true,
+      "topic": "primo_soccorso_emorragia",
+      "source_page": 16
+    },
+    {
+      "number": 85,
+      "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna cercare di arrestare la fuoriuscita del sangue",
+      "answer": true,
+      "topic": "primo_soccorso_emorragia",
+      "source_page": 16
+    },
+    {
+      "number": 83,
+      "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna tamponare la ferita e chiamare subito i soccorsi",
+      "answer": true,
+      "topic": "first-aid-hemorrhage",
+      "source_page": 16
+    },
+    {
+      "number": 86,
+      "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna è opportuno, se possibile, mettere il ferito in posizione seduta o sdraiata, in attesa che arrivino i soccorsi",
+      "answer": true,
+      "topic": "first-aid-hemorrhage",
+      "source_page": 16
+    },
+    {
+      "number": 87,
+      "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna solo medicare la ferita",
+      "answer": false,
+      "topic": "first-aid-hemorrhage",
+      "source_page": 16
+    },
+    {
+      "number": 88,
+      "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve coprire la ferita e far camminare l'infortunato",
+      "answer": false,
+      "topic": "primo_soccorso_emorragia",
+      "source_page": 16
+    },
+    {
+      "number": 89,
+      "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna non si può assolutamente dargli da bere acqua",
+      "answer": false,
+      "topic": "first-aid-hemorrhage",
+      "source_page": 16
+    },
+    {
+      "number": 90,
+      "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio (scheggia di vetro, legno o altro), bisogna bendarglielo, senza procedere ad altre manovre",
+      "answer": true,
+      "topic": "first-aid-eye",
+      "source_page": 16
+    },
+    {
+      "number": 91,
+      "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna consigliargli di non toccare l'occhio danneggiato, per evitare danni maggiori",
+      "answer": true,
+      "topic": "first-aid-eye",
+      "source_page": 16
+    },
+    {
+      "number": 92,
+      "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna bendarglielo, evitando di toccarlo fino all'intervento dello specialista",
+      "answer": true,
+      "topic": "first-aid-eye",
+      "source_page": 16
+    },
+    {
+      "number": 93,
+      "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna cercare sempre e comunque di toglierglielo",
+      "answer": false,
+      "topic": "primo_soccorso_occhio",
+      "source_page": 17
+    },
+    {
+      "number": 94,
+      "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna costringerlo a tenere gli occhi aperti, per evitare altre lesioni",
+      "answer": false,
+      "topic": "first-aid-eye",
+      "source_page": 17
+    },
+    {
+      "number": 95,
+      "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna massaggiargli delicatamente la palpebra, per favorire la lacrimazione",
+      "answer": false,
+      "topic": "primo_soccorso_occhio",
+      "source_page": 17
+    },
+    {
+      "number": 96,
+      "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio non bisogna mai bendargli l'occhio ferito",
+      "answer": false,
+      "topic": "primo_soccorso_occhio",
+      "source_page": 17
+    },
+    {
+      "number": 97,
+      "question_it": "Lo stato di shock si manifesta con pelle molto pallida e fredda",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 98,
+      "question_it": "Lo stato di shock si manifesta con presenza di sudore freddo alla fronte",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 99,
+      "question_it": "Lo stato di shock si manifesta con presenza di brividi, pelle molto pallida e sudorazione fredda",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 100,
+      "question_it": "Lo stato di shock si manifesta con pelle molto pallida, sudorazione fredda, frequenti battiti del cuore",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 101,
+      "question_it": "Lo stato di shock può manifestarsi con improvvisa pronuncia di frasi e parole senza senso",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 102,
+      "question_it": "Lo stato di shock si manifesta sempre con un forte aumento della temperatura corporea",
+      "answer": false,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 103,
+      "question_it": "Lo stato di shock si manifesta con ampie macchie scure sulla pelle",
+      "answer": false,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 104,
+      "question_it": "Lo stato di shock si manifesta con comparsa di colorito rosso della pelle e forti vampate di calore",
+      "answer": false,
+      "topic": "shock",
+      "source_page": 17
+    },
+    {
+      "number": 105,
+      "question_it": "Un ferito in stato di shock va messo a terra e, se possibile, con le gambe sollevate",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 106,
+      "question_it": "Un ferito in stato di shock va coperto come meglio possibile, per evitare che si raffreddi",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 107,
+      "question_it": "Un ferito in stato di shock va disteso, tenendo possibilmente le gambe sollevate",
+      "answer": true,
+      "topic": "stato_di_shock",
+      "source_page": 17
+    },
+    {
+      "number": 108,
+      "question_it": "In presenza di un ferito in stato di shock, occorre farlo camminare, per riattivargli la circolazione del sangue",
+      "answer": false,
+      "topic": "shock",
+      "source_page": 17
+    },
+    {
+      "number": 109,
+      "question_it": "Un ferito in stato di shock va messo in posizione seduta",
+      "answer": false,
+      "topic": "shock",
+      "source_page": 17
+    },
+    {
+      "number": 110,
+      "question_it": "In presenza di un ferito in stato di shock, occorre dargli piccoli schiaffi su guance e gambe, per riattivargli la circolazione del sangue",
+      "answer": false,
+      "topic": "stato_di_shock_incoscienza",
+      "source_page": 17
+    },
+    {
+      "number": 111,
+      "question_it": "In presenza di un ferito in stato di shock, occorre fargli bere piccole quantità di superalcolici",
+      "answer": false,
+      "topic": "stato_di_shock_incoscienza",
+      "source_page": 17
+    },
+    {
+      "number": 112,
+      "question_it": "Se un ferito della strada è in stato di incoscienza, bisogna verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome",
+      "answer": true,
+      "topic": "stato_di_shock_incoscienza",
+      "source_page": 17
+    },
+    {
+      "number": 113,
+      "question_it": "Se un ferito della strada è in stato di incoscienza, può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale",
+      "answer": true,
+      "topic": "stato_di_shock_incoscienza",
+      "source_page": 17
+    },
+    {
+      "number": 114,
+      "question_it": "Se un ferito della strada è in stato di incoscienza e fa fatica a respirare, bisogna liberare subito il naso e la bocca da eventuali ostruzioni",
+      "answer": true,
+      "topic": "first-aid-unconscious",
+      "source_page": 17
+    },
+    {
+      "number": 115,
+      "question_it": "Se un ferito della strada è in stato di incoscienza, bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza",
+      "answer": true,
+      "topic": "incoscienza",
+      "source_page": 17
+    },
+    {
+      "number": 116,
+      "question_it": "Se un ferito della strada è in stato di incoscienza, bisogna somministrargli bevande alcoliche",
+      "answer": false,
+      "topic": "incoscienza",
+      "source_page": 17
+    },
+    {
+      "number": 117,
+      "question_it": "Se un ferito della strada è in stato di incoscienza bisogna bloccargli le mani",
+      "answer": false,
+      "topic": "first-aid-unconscious",
+      "source_page": 17
+    },
+    {
+      "number": 118,
+      "question_it": "Se un ferito della strada è in stato di incoscienza bisogna fasciargli la testa",
+      "answer": false,
+      "topic": "first-aid-unconscious",
+      "source_page": 17
+    },
+    {
+      "number": 119,
+      "question_it": "Se un ferito della strada è in stato di incoscienza bisogna metterlo in posizione semiseduta",
+      "answer": false,
+      "topic": "first-aid-unconscious",
+      "source_page": 17
+    },
+    {
+      "number": 120,
+      "question_it": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, bisogna cercare di facilitargli la respirazione mettendolo semi-seduto",
+      "answer": true,
+      "topic": "chest-trauma",
+      "source_page": 17
+    },
+    {
+      "number": 121,
+      "question_it": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, con ferita visibile e profonda, bisogna comprimere subito con un panno pulito",
+      "answer": false,
+      "topic": "chest-trauma",
+      "source_page": 17
+    },
+    {
+      "number": 122,
+      "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna assisterlo fino all'arrivo del soccorso medico",
+      "answer": true,
+      "topic": "chest-trauma",
+      "source_page": 17
+    },
+    {
+      "number": 123,
+      "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna fargli fare profondi respiri",
+      "answer": false,
+      "topic": "chest-trauma",
+      "source_page": 17
+    },
+    {
+      "number": 124,
+      "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna metterlo in posizione distesa, con le gambe sollevate",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 125,
+      "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna farlo stare alzato, per diminuire la fuoriuscita di sangue",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 126,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti non bisogna muovere gli arti fratturati",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 127,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti, bisogna bloccarglieli, senza procedere ad altre manovre",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 128,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti, bisogna coprire le eventuali ferite con materiale pulito",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 129,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti, bisogna bloccarglieli e subito dopo, se necessario, attuare le normali misure anti-shock",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 130,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti, bisogna cercare di farlo camminare, per diminuire il dolore",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 131,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti, bisogna chiedergli di muoverli, per valutare il tipo di lesione",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 132,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti, con fuoriuscita di un osso, bisogna cercare di riposizionarlo nei tessuti",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 133,
+      "question_it": "Se un infortunato della strada ha riportato fratture agli arti bisogna dargli da bere una bevanda superalcolica",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 134,
+      "question_it": "Se un ferito della strada si è ustionato e sono ancora presenti delle residue fiamme, bisogna spegnerle, soffocandole, ad esempio, con una coperta",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 135,
+      "question_it": "Se un ferito della strada si è ustionato, è consigliabile non togliere i vestiti rimasti attaccati alla pelle bruciata",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 136,
+      "question_it": "Per diminuire il dolore delle ustioni si deve, se possibile, fare uso di acqua fredda",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 137,
+      "question_it": "Se un ferito della strada ha riportato delle ustioni al busto, conviene coprirle con materiale pulito, possibilmente sterile",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 138,
+      "question_it": "Se un ferito della strada si è ustionato e sono ancora presenti delle residue fiamme, bisogna aspettare che si spengano da sole, prima di intervenire",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 139,
+      "question_it": "Se un ferito della strada si è ustionato, bisogna sempre togliere le parti dei vestiti che sono rimaste attaccate alla pelle",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 140,
+      "question_it": "Se un ferito della strada si è ustionato, bisogna disinfettare le bruciature con l'alcool",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 141,
+      "question_it": "Dopo un incidente stradale, il soccorritore che interviene deve valutare bene la situazione, per proteggere gli infortunati da altri pericoli",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 142,
+      "question_it": "Dopo un incidente stradale, il soccorritore che interviene deve assistere gli infortunati al meglio delle sue possibilità, senza però prendere iniziative di specifica competenza medica",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 143,
+      "question_it": "Dopo un incidente stradale, il soccorritore che interviene deve prestare assistenza agli infortunati, secondo le proprie possibilità e conoscenze",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 144,
+      "question_it": "Chi è coinvolto in un incidente stradale deve allontanarsi sempre e subito dal luogo in cui si è verificato",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 145,
+      "question_it": "In caso di incidente stradale, il soccorritore deve somministrare farmaci alla vittima, se la stessa non ha specifica competenza medica",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 146,
+      "question_it": "Lo stato di shock può essere causato da un forte dolore",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 147,
+      "question_it": "Lo stato di shock può essere causato da una forte emozione (gioia, rabbia)",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 148,
+      "question_it": "Lo stato di shock può essere causato da una forte perdita di sangue",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 149,
+      "question_it": "Lo stato di shock può essere causato da un forte trauma",
+      "answer": true,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 150,
+      "question_it": "Lo stato di shock non può dipendere da forti emozioni",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 151,
+      "question_it": "Lo stato di shock non si verifica mai nelle persone che hanno avuto un trauma",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 152,
+      "question_it": "Lo stato di shock non si verifica mai nelle persone che hanno perso molto sangue",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 153,
+      "question_it": "Lo stato di shock non rappresenta un pericolo per la salute",
+      "answer": false,
+      "topic": "first_aid",
+      "source_page": 18
+    },
+    {
+      "number": 154,
+      "question_it": "I tricicli a motore sono veicoli a motore che possono essere condotti senza patente",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 18
+    },
+    {
+      "number": 155,
+      "question_it": "I quadricicli diversi da quelli leggeri possono essere guidati senza patente",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 18
+    },
+    {
+      "number": 156,
+      "question_it": "La guida dei quadricicli non leggeri è consentita già al compimento del quattordicesimo anno di età",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 157,
+      "question_it": "Per condurre macchine operatrici è necessario essere titolari della patente di guida della categoria A",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 158,
+      "question_it": "Con la patente di categoria A si possono guidare tutte le macchine agricole",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 159,
+      "question_it": "Con la patente di categoria B si possono guidare le macchine operatrici eccezionali",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 160,
+      "question_it": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, la patente di guida",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 161,
+      "question_it": "Il limite di velocità sulle autostrade per coloro che hanno conseguito la patente da meno di 3 anni è di 100 km/h",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 162,
+      "question_it": "Il limite di velocità sulle strade extraurbane principali per coloro che hanno conseguito la patente da meno di 3 anni è di 90 km/h",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 163,
+      "question_it": "Il limite di velocità sulle autostrade per coloro che hanno conseguito la patente da meno di tre anni è di 110 km/h",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 164,
+      "question_it": "Il limite di velocità sulle strade extraurbane principali per coloro che hanno conseguito la patente da meno di 3 anni è di 110 km/h",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 165,
+      "question_it": "Prima di iniziare a guidare un veicolo a motore bisogna essere certi che la categoria di patente posseduta ne consenta la guida",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 166,
+      "question_it": "Per guidare un'autovettura che traina un veicolo guasto, con conducente a bordo, occorre la patente di guida della categoria E",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 167,
+      "question_it": "Il conducente a bordo di un veicolo guasto, che viene trainato, può essere privo di patente di guida",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 168,
+      "question_it": "Il titolare di patente di guida della categoria BE che, successivamente, consegue la patente della categoria C, può guidare anche veicoli della categoria CE",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 169,
+      "question_it": "È vietato condurre un autoveicolo sulle strade pubbliche quando non si possiede la patente di guida necessaria per quel tipo di veicolo",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 170,
+      "question_it": "Con la patente di categoria AM si possono condurre i quadricicli leggeri",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 171,
+      "question_it": "Con la patente di categoria AM si possono condurre i ciclomotori a due ruote",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 172,
+      "question_it": "Con la patente di categoria AM si possono condurre i ciclomotori a tre ruote",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 173,
+      "question_it": "La patente AM si può conseguire a 14 anni di età",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 174,
+      "question_it": "La patente AM abilita alla guida di ciclomotori con motore termico non superiore a 50 cm³",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 175,
+      "question_it": "Con la patente di categoria AM si possono condurre i ciclomotori a due ruote mentre per condurre i ciclomotori a tre ruote occorre la patente A1",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 176,
+      "question_it": "La patente AM consente, a chi ha compiuto 14 anni, di condurre i ciclomotori in tutti i paesi dell'Unione Europea",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 177,
+      "question_it": "Con la patente di categoria AM si possono condurre i quadricicli non leggeri con potenza fino a 7 kW",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 178,
+      "question_it": "La patente AM abilita alla guida di motocicli, purché dotati di motore elettrico",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 179,
+      "question_it": "La patente AM può essere rilasciata senza dover sostenere gli esami teorici e pratici, purché il richiedente sia maggiorenne",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 180,
+      "question_it": "La patente AM conseguita da almeno 3 anni abilita alla guida dei motocicli di potenza fino a 11 kW",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 181,
+      "question_it": "Con la patente di categoria A1 si possono condurre i motocicli (con o senza carrozzetta) di cilindrata fino a 125 cm³, potenza non superiore a 11 kW e rapporto potenza/peso non superiore a 0,1 kW/kg",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 182,
+      "question_it": "Con la patente di categoria A1 si possono condurre i tricicli a motore di potenza non superiore a 15 kW",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 183,
+      "question_it": "Con la patente di categoria A1 si possono condurre le macchine agricole che rientrano nei limiti di sagoma e di massa previsti per i motoveicoli",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 184,
+      "question_it": "La patente di categoria A1 può essere conseguita da chi ha almeno 16 anni di età",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 185,
+      "question_it": "La patente di categoria A1 abilita anche alla guida dei veicoli che si possono condurre con la patente AM",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 186,
+      "question_it": "La patente di categoria A1 può essere conseguita solo da chi è già in possesso della patente AM",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 187,
+      "question_it": "La patente di categoria A1 abilita alla guida di tutti i motocicli di cilindrata fino a 125 cm³",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 19
+    },
+    {
+      "number": 188,
+      "question_it": "Con la patente di categoria A1 si possono condurre i tricicli di potenza superiore a 15 kW, ma solo se il conducente è maggiorenne",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 189,
+      "question_it": "Con la patente di categoria A1 si possono condurre le macchine operatrici non eccezionali",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 190,
+      "question_it": "La patente di categoria A1 consente al conducente che ha meno di 18 anni di trasportare un passeggero, ma solo se lo stesso è maggiorenne",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 191,
+      "question_it": "La patente di categoria A1, trascorsi i primi due anni dal conseguimento, diventa automaticamente patente di categoria A2 e, dopo ulteriori due anni, diventa patente di categoria A che abilita alla guida di qualunque motociclo",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 192,
+      "question_it": "Con la patente di categoria A2 si possono condurre i motocicli (con o senza carrozzetta) di potenza fino a 35 kW, rapporto potenza/peso non superiore a 0,2 kW/kg purché non siano derivati da una versione dello stesso modello che sviluppi oltre il doppio della potenza massima",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 193,
+      "question_it": "La patente di categoria A2 abilita anche alla guida dei veicoli che si possono condurre con le patenti A1 e AM",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 194,
+      "question_it": "La patente di categoria A2 può essere conseguita da chi ha almeno 18 anni di età",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 195,
+      "question_it": "La patente di categoria A2 consente al titolare di trasportare un passeggero solo se il posto del passeggero è previsto sulla carta di circolazione del veicolo",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 196,
+      "question_it": "Il titolare di patente di categoria A2 da almeno due anni, può conseguire la patente A che abilita alla guida di tutti i motocicli, anche se ha meno di 24 anni",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 197,
+      "question_it": "Il titolare di patente di categoria A2 può condurre anche le macchine agricole che rientrano nei limiti di sagoma e di massa dei motoveicoli",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 198,
+      "question_it": "La patente di categoria A2 può essere conseguita da chi ha almeno 20 anni di età",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 199,
+      "question_it": "Con la patente di categoria A2 si possono condurre i motocicli (con o senza carrozzetta) di potenza fino a 25 kW, rapporto potenza/peso non superiore a 0,2 kW/kg purché non siano derivati da una versione che sviluppa oltre il triplo della potenza massima",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 200,
+      "question_it": "Il titolare di patente di categoria A2 da almeno due anni, può conseguire la patente A che abilita alla guida di tutti i motocicli, solo se è già in possesso della patente di categoria AM ed ha più di 24 anni di età",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 201,
+      "question_it": "Il titolare di patente di categoria A2 non può condurre motocicli di cilindrata superiore a 150 cm³ e di potenza superiore a 25 kW",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 202,
+      "question_it": "La patente di categoria A2 può essere conseguita solo se si è già in possesso della patente di categoria A1",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 203,
+      "question_it": "La patente di categoria A2 consente di guidare solo i ciclomotori e i quadricicli leggeri",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 204,
+      "question_it": "La patente di categoria A2 non consente di condurre alcun tipo di triciclo a motore",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 205,
+      "question_it": "Con la patente di categoria A si possono condurre tutti i motocicli (con o senza carrozzetta)",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 206,
+      "question_it": "Con la patente di categoria A si possono condurre tutti i tricicli a motore, ma solo se il conducente ha almeno 21 anni",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 207,
+      "question_it": "La patente di categoria A abilita a guidare i motocicli di cilindrata superiore a 50 cm³ anche se sviluppano una velocità superiore a 45 km/h",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 208,
+      "question_it": "La patente di categoria A può essere conseguita, con accesso diretto, da chi non è già titolare di patente A2 da almeno 2 anni, solo se ha compiuto 24 anni di età",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 209,
+      "question_it": "La patente di categoria A può essere conseguita a 20 anni di età, con accesso graduale, da chi è titolare di patente A2 da almeno 2 anni",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 210,
+      "question_it": "La patente di categoria A abilita anche alla guida dei veicoli che si possono condurre con le patenti A1, A2 e AM",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 211,
+      "question_it": "Con la patente di categoria A si possono condurre anche i tricicli di potenza superiore a 15 kW, ma solo se il conducente ha almeno 21 anni di età",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 212,
+      "question_it": "Con la patente di categoria A si possono condurre i motocicli (con o senza carrozzetta) di qualsiasi cilindrata, purché abbiano una potenza inferiore a 35 kW per i primi 2 anni dal conseguimento",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 20
+    },
+    {
+      "number": 213,
+      "question_it": "Con la patente di categoria A si possono guidare i quadricicli non leggeri, qualunque sia l'età del conducente",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 214,
+      "question_it": "La patente di categoria A può essere conseguita con accesso graduale a 18 anni di età da chi è già titolare di patente A1 da almeno 2 anni",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 215,
+      "question_it": "Con la patente di categoria A si possono condurre anche i tricicli di potenza superiore a 15 kW, qualunque sia l'età del conducente",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 216,
+      "question_it": "La patente di categoria A può essere conseguita con accesso diretto anche da chi non è già titolare di patente A2 da almeno 2 anni, purché abbia compiuto 21 anni di età",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 217,
+      "question_it": "La patente di categoria A conseguita per accesso diretto ad almeno 24 anni di età, consente di condurre tutti i motocicli ma solo in Italia, per guidare all'estero è necessario sostenere un ulteriore esame",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 218,
+      "question_it": "Per conseguire la patente di categoria A è in ogni caso necessario aver compiuto almeno 24 anni di età",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 219,
+      "question_it": "La patente di categoria B1 può essere conseguita a 16 anni di età",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 220,
+      "question_it": "La patente di categoria B1 abilita a condurre alcuni tipi di quadricicli non leggeri",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 221,
+      "question_it": "La patente di categoria B1 abilita a condurre i quadricicli non leggeri con manubrio (Quad)",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 222,
+      "question_it": "La patente di categoria B1 abilita a condurre i motocicli (con o senza carrozzetta) di cilindrata fino a 125 cm³, di potenza non superiore a 11 kW e con rapporto potenza/peso non superiore a 0,1 kW/kg",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 223,
+      "question_it": "Con la patente di categoria B1 si possono condurre tutti i tricicli a motore, ma solo se il conducente ha già compiuto i 18 anni di età",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 224,
+      "question_it": "La patente di categoria B1 abilita a condurre le autovetture monoposto, o con un massimo di tre posti, compreso il conducente, purché si circoli senza passeggeri a bordo",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 225,
+      "question_it": "La patente di categoria B1 abilita anche alla guida dei veicoli che si possono condurre con la patente A1",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 226,
+      "question_it": "Il titolare della patente di categoria B1 che intende conseguire la patente di categoria B dovrà sostenere solo un esame teorico integrativo",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 227,
+      "question_it": "La patente di categoria B abilita a condurre gli autoveicoli di massa massima autorizzata non superiore a 3,5 tonnellate destinati al trasporto di non più di otto persone oltre al conducente",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 228,
+      "question_it": "La patente di categoria B abilita a condurre le autovetture, anche se trainanti un rimorchio leggero (massa fino a 750 chilogrammi)",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 229,
+      "question_it": "La patente di categoria B abilita a condurre gli autocaravan di massa massima autorizzata non superiore a 3,5 tonnellate",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 230,
+      "question_it": "La patente di categoria B abilita a condurre le macchine agricole, comprese quelle definite eccezionali",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 231,
+      "question_it": "La patente di categoria B abilita a condurre le autovetture trainanti un rimorchio non leggero (massa oltre 750 chilogrammi) purché la massa massima autorizzata del complesso non superi 3,5 tonnellate",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 232,
+      "question_it": "La patente di categoria B consente di guidare, ma solo sul territorio nazionale (Italia), i veicoli che si possono condurre con la patente A1",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 233,
+      "question_it": "La patente di categoria B abilita anche alla guida dei veicoli che si possono condurre con le patenti AM e B1",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 234,
+      "question_it": "La patente di categoria B consente di guidare, solo sul territorio nazionale (Italia) e se il conducente ha almeno 21 anni, i tricicli a motore di potenza superiore a 15 kW",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 235,
+      "question_it": "La patente di categoria B abilita a condurre gli autocarri di massa massima autorizzata non superiore a 3.500 chilogrammi anche se trainanti un rimorchio leggero (massa fino a 750 chilogrammi)",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 236,
+      "question_it": "La patente di categoria B consente di condurre tutti i tipi di quadricicli a motore",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 237,
+      "question_it": "La patente di categoria B abilita anche alla guida dei veicoli che si possono condurre con le patenti A2 e A",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 238,
+      "question_it": "La patente di categoria B abilita a guidare gli autobus destinati al trasporto di al massimo 16 posti, escluso il conducente",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 21
+    },
+    {
+      "number": 239,
+      "question_it": "La patente di categoria B abilita a guidare gli autocarri di massa massima autorizzata superiore a 3,5 tonnellate ma non superiore a 7,5 tonnellate",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 240,
+      "question_it": "La patente di categoria B, per i primi tre anni dal suo conseguimento, non consente la guida di autovetture aventi una potenza specifica, riferita alla tara, superiore a 55 kW/t o una potenza massima di 70 kW",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 241,
+      "question_it": "La patente di categoria B abilita a condurre le macchine operatrici eccezionali",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 242,
+      "question_it": "La patente di categoria B abilita a condurre solo autovetture con al massimo 9 posti compreso il conducente",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 243,
+      "question_it": "La patente di categoria B abilita a condurre le autovetture, anche se trainano rimorchi aventi massa superiore a 3.500 chilogrammi",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 244,
+      "question_it": "La patente di categoria B consente di guidare un'autovettura che traina un rimorchio, con massa del complesso veicolare pari a 4.500 chilogrammi",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 245,
+      "question_it": "La patente di categoria B, conseguita dopo i 24 anni di età, abilita alla guida di tutti i motocicli",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 246,
+      "question_it": "La patente di categoria B consente di guidare tutti gli autocaravan (camper)",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 247,
+      "question_it": "La patente di categoria B con codice armonizzato 96, consente di guidare le autovetture trainanti un rimorchio non leggero (oltre 750 chilogrammi), purché la massa massima autorizzata del complesso non sia superiore a 4.250 chilogrammi",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 248,
+      "question_it": "La patente di categoria B con codice armonizzato 96, può essere conseguita anche successivamente al conseguimento della patente di categoria B, superando una prova di guida su specifico veicolo",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 249,
+      "question_it": "La patente di categoria B con codice armonizzato 96 può essere conseguita anche contestualmente alla patente di categoria B, sostenendo una prova di guida su specifico veicolo",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 250,
+      "question_it": "Il codice armonizzato 96, apposto sulla patente di categoria B, abilita alla guida di autoveicoli trainanti un rimorchio non leggero (oltre 750 chilogrammi), purché la massa massima autorizzata del complesso non sia superiore a 4.250 chilogrammi",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 251,
+      "question_it": "Per guidare un'autovettura che traina un rimorchio non leggero (oltre 750 chilogrammi), con massa massima autorizzata del complesso superiore a 3.500 chilogrammi ma non superiore a 4.250 chilogrammi, è sufficiente aver conseguito la patente di categoria B con codice armonizzato 96",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 252,
+      "question_it": "La patente di categoria B con codice armonizzato 96, abilita alla guida di autosnodati con massa massima autorizzata superiore a 4.250 chilogrammi, ma non superiore a 7.500 chilogrammi",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 253,
+      "question_it": "La patente di categoria B con codice armonizzato 96, abilita alla guida di motocicli di potenza fino a 35 kW",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 254,
+      "question_it": "La patente di categoria B con codice armonizzato 96, può essere conseguita solo se si è già in possesso della patente A",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 255,
+      "question_it": "Il codice armonizzato 96, apposto sulla patente di categoria B, abilita alla guida di autoveicoli trainanti un rimorchio non leggero (oltre 750 chilogrammi), con massa massima autorizzata del complesso superiore a 4.250 chilogrammi ma non superiore a 6.000 chilogrammi",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 256,
+      "question_it": "Il codice armonizzato 96, apposto sulla patente di categoria B, indica che il titolare può condurre un'autovettura che traina un rimorchio solo in Italia",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 257,
+      "question_it": "La patente di categoria BE abilita a condurre complessi di veicoli composti da un autoveicolo di massa massima autorizzata fino a 3.500 chilogrammi e da un rimorchio di massa fino a 3.500 chilogrammi, anche se la massa del complesso veicolare è superiore a 4.250 chilogrammi",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 258,
+      "question_it": "Per guidare un'autovettura che traina un rimorchio di massa massima autorizzata di 2.000 chilogrammi e massa massima autorizzata del complesso veicolare pari a 4.500 chilogrammi, è necessario aver conseguito la patente di categoria BE",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 259,
+      "question_it": "La patente di categoria BE abilita a condurre autotreni composti da un autoveicolo di massa massima autorizzata fino a 3.500 chilogrammi e da un rimorchio di massa fino a 3.500 chilogrammi",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 260,
+      "question_it": "La patente di categoria BE abilita anche alla guida dei veicoli che si possono condurre con le patenti di categoria AM, B1, B e B con codice armonizzato 96",
+      "answer": true,
+      "topic": "license_categories",
+      "source_page": 22
+    },
+    {
+      "number": 261,
+      "question_it": "Per condurre un autoveicolo di massa massima autorizzata pari a 3.500 chilogrammi che traina un rimorchio di massa massima autorizzata di 1.000 chilogrammi è necessario aver conseguito la patente di categoria BE",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 23
+    },
+    {
+      "number": 262,
+      "question_it": "Per condurre un autoveicolo di massa massima autorizzata pari a 4.000 chilogrammi che traina un rimorchio di massa massima autorizzata di 2.000 chilogrammi è sufficiente aver conseguito la patente di categoria BE",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 23
+    },
+    {
+      "number": 263,
+      "question_it": "La patente di categoria BE abilita a condurre complessi di veicoli composti da un minibus che traina un rimorchio di massa fino a 1.500 chilogrammi",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 23
+    },
+    {
+      "number": 264,
+      "question_it": "La patente di categoria BE abilita anche alla guida dei veicoli che si possono condurre con le patenti di categoria A, B e C1",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 23
+    },
+    {
+      "number": 265,
+      "question_it": "La patente di categoria BE abilita a condurre autotreni composti da un autoveicolo di massa massima autorizzata fino a 3.500 chilogrammi che traina un rimorchio di massa superiore a 3.500 chilogrammi",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 23
+    },
+    {
+      "number": 266,
+      "question_it": "La patente di categoria BE si può conseguire anche contestualmente alla patente di categoria B, sostenendo la prova di guida su specifico veicolo, ma bisogna aver compiuto almeno 21 anni",
+      "answer": false,
+      "topic": "license_categories",
+      "source_page": 23
+    },
+    {
+      "number": 267,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 268,
+      "question_it": "Su tutte le strade è vietato esercitarsi alla guida",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 269,
+      "question_it": "La patente di guida è confermata se il titolare della stessa è ancora in possesso dei requisiti fisici e psichici prescritti",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 270,
+      "question_it": "La patente di guida è confermata a seguito di esito favorevole dell'apposito accertamento sanitario eseguito da medico autorizzato",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 271,
+      "question_it": "La patente di guida è confermata dal Ministero delle infrastrutture e dei trasporti a seguito di accertamento di idoneità psicofisica svolto da un medico autorizzato",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 272,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di cinque anni se rilasciata o confermata a chi ha una età compresa fra i 50 e i 70 anni",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 273,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di tre anni se rilasciata o confermata a chi ha una età compresa fra i 70 e gli 80 anni",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 274,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di due anni se rilasciata o confermata a chi ha superato gli 80 anni di età",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 275,
+      "question_it": "La patente di guida di categoria BE, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 276,
+      "question_it": "La patente di guida di categoria A, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 277,
+      "question_it": "La patente di guida di categoria B SPECIALE (BS), salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di cinque anni se rilasciata o confermata a chi non ha superato i 70 anni di età",
+      "answer": true,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 278,
+      "question_it": "La patente di guida di categoria B è confermata dal Prefetto a seguito di visita di accertamento dei requisiti morali",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 279,
+      "question_it": "Con la patente di guida scaduta di validità è possibile comunque continuare a guidare per un tempo massimo di tre giorni",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 280,
+      "question_it": "La patente di guida è confermata a seguito di esito favorevole della prova tecnica di guida (esame di guida) periodica",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 23
+    },
+    {
+      "number": 281,
+      "question_it": "Il titolare abilitato a condurre veicoli conducibili con patente della categoria A e della categoria B, per confermarne la validità, deve sostenere due specifiche visite mediche, ognuna abilitante alla singola categoria",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 24
+    },
+    {
+      "number": 282,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, vale otto anni se rilasciata o confermata a chi ha una età compresa fra i 50 e i 70 anni",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 24
+    },
+    {
+      "number": 283,
+      "question_it": "La patente di guida di categoria BE, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, vale cinque anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 24
+    },
+    {
+      "number": 284,
+      "question_it": "La patente di guida di categoria B, non può essere rinnovata a chi ha superato gli 80 anni di età",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 24
+    },
+    {
+      "number": 285,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, vale cinque anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 24
+    },
+    {
+      "number": 286,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, vale dieci anni in ogni caso di rilascio o di conferma",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 24
+    },
+    {
+      "number": 287,
+      "question_it": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso, non ha scadenza di validità fino al compimento dei 50 anni di età",
+      "answer": false,
+      "topic": "license_validity",
+      "source_page": 24
+    },
+    {
+      "number": 288,
+      "question_it": "Se, uscendo da un sentiero fangoso, si sporca notevolmente la strada, si può incorrere in una sanzione amministrativa",
+      "answer": true,
+      "topic": "sanctions",
+      "source_page": 24
+    },
+    {
+      "number": 289,
+      "question_it": "Attraversare un passaggio a livello senza rispettare tutte le norme previste, comporta esclusivamente una lieve sanzione amministrativa in quanto non comporta reali pericoli per gli altri utenti",
+      "answer": false,
+      "topic": "sanctions",
+      "source_page": 24
+    },
+    {
+      "number": 290,
+      "question_it": "La sosta in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide, comporta la sospensione della patente",
+      "answer": false,
+      "topic": "sanctions",
+      "source_page": 24
+    },
+    {
+      "number": 291,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, a seguito di violazione che comporti le sanzioni accessorie della sospensione della patente",
+      "answer": true,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 292,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando si accerti che il conducente guida con patente la cui validità è scaduta",
+      "answer": true,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 293,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente sia alla guida in stato di ebbrezza",
+      "answer": true,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 294,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, se il conducente non sistema correttamente il carico mal disposto, dopo invito degli organi di polizia",
+      "answer": true,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 295,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, se a seguito di incidente, sono derivate lesioni a persone",
+      "answer": true,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 296,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente, obbligato a sostenere un esame di revisione, non vi si è sottoposto nei termini prescritti",
+      "answer": true,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 297,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente trasporta un passeggero in stato di ebbrezza",
+      "answer": false,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 298,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente circola in Italia con patente rilasciata da uno stato estero in cui è residente",
+      "answer": false,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 299,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, se si circola con pneumatici di dimensioni diverse da quelle riportate sulla carta di circolazione",
+      "answer": false,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 300,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, tutte le volte che il conducente commette una violazione che comporta una decurtazione di punti dalla patente",
+      "answer": false,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 301,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente circola senza avere con sé la carta di circolazione del veicolo",
+      "answer": false,
+      "topic": "license_withdrawal",
+      "source_page": 24
+    },
+    {
+      "number": 302,
+      "question_it": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente circola senza avere con sé il certificato di proprietà del veicolo",
+      "answer": false,
+      "topic": "license_withdrawal",
+      "source_page": 25
+    },
+    {
+      "number": 303,
+      "question_it": "La revisione della patente di guida può essere disposta quando sorgono dubbi che il conducente sia ancora in possesso dei requisiti fisici e psichici prescritti",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 304,
+      "question_it": "La revisione della patente di guida può essere disposta dall'Ufficio Motorizzazione civile o dal Prefetto",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 305,
+      "question_it": "La revisione della patente di guida può essere disposta a seguito di incidente stradale che ha procurato lesioni gravi a persone",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 306,
+      "question_it": "La revisione della patente di guida può essere disposta qualora sorgano dubbi che il conducente sia ancora in possesso dell'idoneità tecnica alla guida",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 307,
+      "question_it": "La revisione della patente di guida può essere disposta con l'obbligo di sottoporsi a visita medica e/o ad esame di idoneità tecnica",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 308,
+      "question_it": "La revisione della patente di guida può essere disposta a seguito di guida in stato di ebbrezza o sotto l'effetto di sostanze stupefacenti",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 309,
+      "question_it": "La revisione della patente di guida è disposta a seguito di azzeramento dei \"punti\" della patente di guida",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 310,
+      "question_it": "Il conducente che non supera l'esame di revisione della patente, subisce la revoca della patente stessa",
+      "answer": true,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 311,
+      "question_it": "La revisione della patente di guida può essere disposta quando il titolare non è più in possesso dei requisiti morali richiesti",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 312,
+      "question_it": "La revisione della patente di guida può essere disposta quando il titolare incorre, per due volte in un anno, in una infrazione che comporta la perdita di almeno 5 punti",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 313,
+      "question_it": "La revisione della patente di guida può essere disposta quando il titolare perde permanentemente (per sempre) i requisiti fisici richiesti",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 314,
+      "question_it": "La revisione della patente di guida può essere disposta quando il titolare circola con la revisione del veicolo scaduta da oltre un anno",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 315,
+      "question_it": "La revisione della patente di guida può essere disposta quando il titolare circola su un'auto storica senza la prescritta documentazione",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 316,
+      "question_it": "La revisione della patente di guida può essere disposta quando il titolare circola su un veicolo che non è di sua proprietà e non ha un'autorizzazione scritta del proprietario",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 317,
+      "question_it": "La revisione della patente di guida è disposta quando si accerti che il conducente è alla guida senza aver con sé la patente",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 318,
+      "question_it": "Il conducente che non supera l'esame di revisione della patente, può ripeterlo altre due volte entro un anno, continuando a guidare con uno speciale permesso rilasciato dalla Motorizzazione Civile",
+      "answer": false,
+      "topic": "license_revision",
+      "source_page": 25
+    },
+    {
+      "number": 319,
+      "question_it": "La revoca della patente è disposta quando il titolare guida nonostante abbia la patente sospesa",
+      "answer": true,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 320,
+      "question_it": "La revoca della patente può essere disposta quando il conducente, in autostrada, inverte il senso di marcia o percorre la carreggiata contro mano",
+      "answer": true,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 321,
+      "question_it": "La revoca della patente è disposta quando il titolare perde permanentemente (per sempre) i requisiti fisici richiesti",
+      "answer": true,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 322,
+      "question_it": "La revoca della patente è disposta quando il titolare perde permanentemente (per sempre) i requisiti psichici richiesti",
+      "answer": true,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 323,
+      "question_it": "La revoca della patente è disposta quando la patente stessa viene sostituita con altra rilasciata da uno stato estero",
+      "answer": true,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 324,
+      "question_it": "La revoca della patente è disposta quando il titolare, sottoposto ad esame di revisione, non risulti più idoneo alla guida",
+      "answer": true,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 325,
+      "question_it": "La revoca della patente è disposta quando il conducente guida con patente scaduta di validità",
+      "answer": false,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 326,
+      "question_it": "La revoca della patente può essere disposta quando il conducente guida senza averla con sé",
+      "answer": false,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 327,
+      "question_it": "La revoca della patente è disposta quando il conducente perde temporaneamente i requisiti fisici",
+      "answer": false,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 328,
+      "question_it": "La revoca della patente può essere disposta quando il conducente guida senza lenti correttive quando prescritte",
+      "answer": false,
+      "topic": "license_revocation",
+      "source_page": 25
+    },
+    {
+      "number": 329,
+      "question_it": "La revoca della patente può essere disposta dagli organi di polizia",
+      "answer": false,
+      "topic": "license_revocation",
+      "source_page": 26
+    },
+    {
+      "number": 330,
+      "question_it": "La revoca della patente può essere disposta quando il conducente guida un veicolo intestato ad altra persona senza avere apposita dichiarazione scritta",
+      "answer": false,
+      "topic": "license_revocation",
+      "source_page": 26
+    },
+    {
+      "number": 331,
+      "question_it": "La sospensione della patente è una sanzione accessoria che deriva dalla violazione di alcuni articoli del codice della strada",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 332,
+      "question_it": "La sospensione della patente è disposta, ad esempio, quando il neopatentato circola senza rispettare le limitazioni sui veicoli e sulle velocità",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 333,
+      "question_it": "La sospensione della patente è disposta quando si superano di oltre 40 km/h i limiti massimi di velocità",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 334,
+      "question_it": "La sospensione della patente può essere disposta quando si circola, in autostrada, sulla corsia di emergenza in casi non previsti dal codice della strada",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 335,
+      "question_it": "La sospensione della patente è disposta quando il conducente guida sotto l'effetto di sostanze stupefacenti",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 336,
+      "question_it": "La sospensione della patente è disposta quando il conducente guida in stato di ebbrezza alcolica",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 337,
+      "question_it": "La sospensione della patente è disposta quando il conducente rifiuta di sottoporsi agli accertamenti sul suo eventuale stato di ebbrezza alcolica",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 338,
+      "question_it": "La sospensione della patente è disposta quando il conducente fugge senza prestare soccorso alla persona investita",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 339,
+      "question_it": "La sospensione della patente è disposta quando il conducente circola abusivamente con veicolo sottoposto a sequestro",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 340,
+      "question_it": "La sospensione della patente può essere disposta nei confronti di chi abbia falsificato o contraffatto i documenti relativi all'assicurazione del veicolo",
+      "answer": true,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 341,
+      "question_it": "La sospensione della patente è disposta quando il conducente circola con patente sospesa",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 342,
+      "question_it": "La sospensione della patente è disposta quando il titolare della patente perde definitivamente i requisiti fisici",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 343,
+      "question_it": "La sospensione della patente è disposta quando sorgono dubbi sulla persistenza dei requisiti prescritti",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 344,
+      "question_it": "La sospensione della patente è disposta contestualmente alla comunicazione di azzeramento dei punti",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 345,
+      "question_it": "La sospensione della patente può essere disposta quando si superano di 20 km/h i limiti massimi di velocità",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 346,
+      "question_it": "La sospensione della patente può essere disposta quando si circola senza avere con sé la patente di guida",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 347,
+      "question_it": "La sospensione della patente è disposta quando si circola con patente illeggibile o deteriorata",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 348,
+      "question_it": "La sospensione della patente è disposta quando, a richiesta degli agenti, non si è in grado di esibire il segnale mobile di pericolo",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 349,
+      "question_it": "La sospensione della patente è disposta quando il titolare non è più in possesso dei requisiti morali",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 350,
+      "question_it": "La sospensione della patente è disposta quando si lascia il veicolo in sosta negli spazi destinati ai disabili",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 351,
+      "question_it": "La sospensione della patente è disposta quando non si è pagato nei termini il bollo dell'auto",
+      "answer": false,
+      "topic": "license_suspension",
+      "source_page": 26
+    },
+    {
+      "number": 352,
+      "question_it": "In presenza del segnale raffigurato, qualora non si dia la precedenza ai pedoni che attraversano sulle apposite strisce, si incorre nella sottrazione di punti della patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 26
+    },
+    {
+      "number": 353,
+      "question_it": "Il mancato rispetto delle norme prescritte per immettersi nel flusso della circolazione comporta, tra l'altro, la perdita di punti dalla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 26
+    },
+    {
+      "number": 354,
+      "question_it": "Il mancato rispetto delle norme prescritte per immettersi nel flusso della circolazione non comporta la sottrazione di punti dalla patente, ma sanzione pecuniaria",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 26
+    },
+    {
+      "number": 355,
+      "question_it": "In caso di fermata sul margine destro della carreggiata senza segnalare con sufficiente anticipo l'intenzione di effettuare tale manovra, è disposta la sottrazione di 4 punti dalla patente del conducente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 26
+    },
+    {
+      "number": 356,
+      "question_it": "La sosta negli spazi riservati allo stazionamento e alla fermata di autobus, filobus e veicoli circolanti su rotaia comporta, tra l'altro, la sottrazione di punti dalla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 357,
+      "question_it": "La sosta, a meno di 15 metri dal segnale di fermata degli autobus, qualora gli spazi di fermata non siano delimitati, comporta tra l'altro, la sottrazione di punti dalla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 358,
+      "question_it": "La sosta negli spazi riservati alla fermata e alla sosta dei veicoli per persone invalide, comporta, tra l'altro, la sottrazione di punti dalla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 359,
+      "question_it": "La sosta in corrispondenza degli scivoli o dei raccordi tra i marciapiedi e la carreggiata utilizzati dai veicoli per persone invalide comporta, tra l'altro, la sottrazione di punti dalla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 360,
+      "question_it": "La sosta nelle corsie o carreggiate riservate ai mezzi pubblici comporta, tra l'altro, la sottrazione di punti dalla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 361,
+      "question_it": "La sosta negli spazi riservati alla fermata e alla sosta dei veicoli per persone invalide comporta una sanzione pecuniaria, ma non la sottrazione di punti dalla patente del conducente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 362,
+      "question_it": "Qualora, in situazione di emergenza, il conducente traini con il suo veicolo un altro veicolo senza rispettare le prescrizioni relative alla solidità del collegamento è punito con la sottrazione di 2 punti dalla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 363,
+      "question_it": "Qualora, in situazione di emergenza, il conducente traini con il suo veicolo un altro veicolo senza rispettare le prescrizioni relative alla solidità del collegamento è punito con la sottrazione di 4 punti dalla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 364,
+      "question_it": "Il conducente che non indossa il casco è soggetto alla decurtazione di punti dalla patente di guida",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 365,
+      "question_it": "Ogni patente di guida ha un'attribuzione iniziale di 20 punti",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 366,
+      "question_it": "Il punteggio sulla patente diminuisce quando si commettono particolari infrazioni al codice della strada",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 367,
+      "question_it": "Quando il conducente ha esaurito la sua dotazione di punti sulla patente deve sottoporsi a revisione della stessa",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 368,
+      "question_it": "La frequenza di apposito corso e il superamento di uno specifico esame consentono al titolare di patente A o B di recuperare 6 punti, arrivando al massimo a 20 punti",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 369,
+      "question_it": "Le violazioni che comportano decurtazione di punti, commesse entro i primi tre anni dal rilascio della patente della categoria B, sono sanzionate con il doppio dei punti previsti",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 370,
+      "question_it": "Se si commettono contemporaneamente più violazioni che comportano perdita di punti sulla patente, possono essere decurtati al massimo 15 punti, salvo che si tratti di infrazioni che comportano la sospensione della patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 371,
+      "question_it": "Se per due anni non commette infrazioni che comportano perdita di punti, il conducente che abbia meno di 20 punti rientra in possesso di tutti i 20 punti",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 372,
+      "question_it": "Ogni patente di guida ha un'attribuzione iniziale di 30 punti",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 373,
+      "question_it": "Il punteggio sulla patente diminuisce quando si commette una qualunque infrazione al codice della strada",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 374,
+      "question_it": "Il punteggio sulla patente diminuisce esclusivamente quando si commette un'infrazione al codice della strada che comporta la sospensione o il ritiro della patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 375,
+      "question_it": "Le violazioni che comportano decurtazione di punti, commesse entro i primi tre anni dal rilascio della prima patente, sono sanzionate con il triplo dei punti previsti",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 376,
+      "question_it": "La frequenza di apposito corso e il superamento di uno specifico esame consentono al titolare di patente A o B di recuperare 9 punti, arrivando al massimo a 30 punti",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 377,
+      "question_it": "Se si commettono contemporaneamente più violazioni che comportano perdita di punti sulla patente, possono essere decurtati al massimo 10 punti, salvo che si tratti di infrazioni che comportano la revoca della patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 378,
+      "question_it": "Se per due anni non commette infrazioni che comportano perdita di punti, il conducente che abbia meno di 20 punti entra in possesso di 30 punti",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 379,
+      "question_it": "Quando ha esaurito la sua dotazione di punti sulla patente, al conducente viene revocata la patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 27
+    },
+    {
+      "number": 380,
+      "question_it": "Il superamento dei limiti di velocità di oltre 10 km/h durante la guida comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 381,
+      "question_it": "Il mancato rispetto di alcune norme relative alla manovra di sorpasso comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 382,
+      "question_it": "L'uso del telefono cellulare senza auricolare o viva voce durante la guida comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 383,
+      "question_it": "Circolare senza casco durante la guida quando previsto, o con casco mal allacciato, comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 384,
+      "question_it": "Il mancato rispetto della distanza di sicurezza da cui sia derivato un incidente, comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 385,
+      "question_it": "Il mancato utilizzo o l'uso improprio delle luci durante la guida, comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 386,
+      "question_it": "Il trasporto in sovraccarico o in sovrannumero durante la guida, comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 387,
+      "question_it": "L'omesso uso di lenti durante la guida, se prescritte, comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 388,
+      "question_it": "Circolare sulla corsia di emergenza in autostrada, al di fuori dei casi previsti, comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 389,
+      "question_it": "Guidare sotto l'effetto di sostanze stupefacenti comporta una perdita di punti sulla patente",
+      "answer": true,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 390,
+      "question_it": "Gareggiare in velocità su piste private, avendo meno di 24 anni e la sola patente B, comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 391,
+      "question_it": "Lasciare in sosta l'auto davanti a un passo carrabile comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 392,
+      "question_it": "Guidare senza avere con sé la patente comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 393,
+      "question_it": "Circolare senza avere con sé la carta di circolazione del veicolo di cui si è alla guida comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 394,
+      "question_it": "Guidare senza avere con sé il certificato di proprietà del veicolo di cui si è alla guida comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 395,
+      "question_it": "Guidare un veicolo di altro proprietario senza autorizzazione della Motorizzazione Civile comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 396,
+      "question_it": "La perdita di punti sulla patente per infrazione al codice della strada è raddoppiata se effettuata alla guida di motociclo di potenza superiore a 35 kW",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 397,
+      "question_it": "La perdita di punti sulla patente per infrazione al codice della strada è raddoppiata se effettuata alla guida di autovettura di potenza superiore a 115 kW",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 398,
+      "question_it": "Circolare con un'autovettura dotata di otto posti compreso il conducente con patente di categoria C comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 399,
+      "question_it": "Circolare con un'autovettura su autostrada o su strada extraurbana principale avendo conseguito la patente di categoria B da meno di sei mesi comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 400,
+      "question_it": "Circolare, in un giorno festivo, con un autocarro carico, di massa complessiva a pieno carico inferiore a 3,5 tonnellate, comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 401,
+      "question_it": "Circolare con veicolo che non sia stato sottoposto alla prescritta revisione periodica comporta una perdita di punti sulla patente",
+      "answer": false,
+      "topic": "license_points",
+      "source_page": 28
+    },
+    {
+      "number": 402,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale è soggetto alle pene previste dal Codice Penale",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 28
+    },
+    {
+      "number": 403,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale è tenuto al risarcimento dei danni",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 28
+    },
+    {
+      "number": 404,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale qualora abbia violato norme del Codice della strada è anche soggetto alle relative sanzioni",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 28
+    },
+    {
+      "number": 405,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale può incorrere nella sospensione della patente di guida",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 28
+    },
+    {
+      "number": 406,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale può incorrere nella revoca della patente di guida",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 28
+    },
+    {
+      "number": 407,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale può incorrere nella revisione della patente di guida",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 28
+    },
+    {
+      "number": 408,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale è sempre soggetto all'arresto preventivo",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 409,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale non può continuare a guidare veicoli della stessa categoria, ma solo di categoria inferiore",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 410,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale è in ogni caso assoggettato alla revoca della patente",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 411,
+      "question_it": "Chi è penalmente e civilmente responsabile di un sinistro stradale non è assoggettato alle sanzioni del codice della strada",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 412,
+      "question_it": "La responsabilità civile connessa al sinistro stradale è indipendente dalla responsabilità penale e dalla responsabilità amministrativa",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 413,
+      "question_it": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico del conducente del veicolo, se si tratta di responsabilità penale",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 414,
+      "question_it": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale si libera dall'obbligo se risarcisce il danneggiato",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 415,
+      "question_it": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può accordarsi con il danneggiato circa il valore del risarcimento",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 416,
+      "question_it": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può far riparare il proprio autoveicolo",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 417,
+      "question_it": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può farsi assistere da un consulente d'infortunistica stradale",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 418,
+      "question_it": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può, in alternativa, chiedere che la propria patente di guida sia revocata",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 419,
+      "question_it": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale si libera da ogni forma di responsabilità penale pagandone l'ammontare del danno",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 420,
+      "question_it": "La responsabilità civile connessa al sinistro stradale consiste nell'obbligo di risarcire i danni causati sia alle persone che alle cose",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 421,
+      "question_it": "La responsabilità civile connessa al sinistro stradale obbliga il responsabile al risarcimento del danno",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 422,
+      "question_it": "La responsabilità civile connessa al sinistro stradale è basata sul principio che ogni danno causato deve essere risarcito",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 423,
+      "question_it": "La responsabilità civile connessa al sinistro stradale è esclusa in caso di morte del danneggiato",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 424,
+      "question_it": "La responsabilità civile connessa al sinistro stradale si limita al risarcimento dei danni alle sole cose",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 425,
+      "question_it": "La responsabilità civile connessa al sinistro stradale è esclusa per danni di lieve entità",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 426,
+      "question_it": "La responsabilità civile connessa al sinistro stradale è aggravata dalla mancata copertura assicurativa",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 427,
+      "question_it": "La responsabilità civile connessa al sinistro stradale grava sull'impresa assicuratrice anche per danni superiori ai massimali",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 428,
+      "question_it": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico del conducente e del proprietario del veicolo, se si tratta di responsabilità civile",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 429,
+      "question_it": "La responsabilità per danni connessi alla circolazione dei veicoli non è a carico del proprietario del veicolo se prova che la circolazione è avvenuta contro la sua volontà",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 430,
+      "question_it": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico solo del conducente del veicolo se ci sono stati danni alle cose",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 431,
+      "question_it": "La responsabilità penale connessa al sinistro stradale è esclusa quando vi siano danni involontari alle sole cose",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 432,
+      "question_it": "La responsabilità penale connessa al sinistro stradale è esclusa quando il fatto non sia considerato un reato",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 433,
+      "question_it": "La responsabilità penale connessa al sinistro stradale è esclusa quando il fatto dipende da causa di forza maggiore",
+      "answer": true,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 434,
+      "question_it": "La responsabilità penale connessa al sinistro stradale è esclusa quando si sia prestato soccorso alla vittima",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 435,
+      "question_it": "La responsabilità penale connessa al sinistro stradale è esclusa ogni qualvolta ci sia stato il risarcimento del danno",
+      "answer": false,
+      "topic": "liability",
+      "source_page": 29
+    },
+    {
+      "number": 436,
+      "question_it": "La responsabilità penale connessa al sinistro stradale è esclusa qualora intervenga l'impresa di assicurazione che risarcisca adeguatamente il danneggiato",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 437,
+      "question_it": "La responsabilità penale connessa al sinistro stradale sorge qualora esso provochi lesioni gravi a persone",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 438,
+      "question_it": "La responsabilità penale connessa al sinistro stradale sorge anche in caso di omicidio colposo",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 439,
+      "question_it": "La responsabilità penale connessa al sinistro stradale sorge allorché vengano violate norme contemplate dal Codice Penale",
+      "answer": true,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 440,
+      "question_it": "La responsabilità penale connessa al sinistro stradale sorge in ogni caso in cui sia violato il Codice della strada",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 441,
+      "question_it": "La responsabilità penale connessa al sinistro stradale sorge quando il veicolo vada completamente distrutto",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 442,
+      "question_it": "La responsabilità penale connessa al sinistro stradale sorge in tutti i casi di danni alle persone o alle cose",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 443,
+      "question_it": "La responsabilità penale connessa al sinistro stradale sorge nei confronti del proprietario del veicolo se il conducente non è stato identificato",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 444,
+      "question_it": "La responsabilità civile connessa al sinistro stradale grava sul proprietario e sul conducente del veicolo",
+      "answer": true,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 445,
+      "question_it": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico del proprietario del veicolo, se si tratta di responsabilità penale",
+      "answer": false,
+      "topic": "responsabilita_sinistro",
+      "source_page": 30
+    },
+    {
+      "number": 446,
+      "question_it": "I quadricicli non leggeri a manubrio e con carrozzeria aperta possono essere condotti senza casco",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 447,
+      "question_it": "Gli addetti a servizi di polizia stradale vengono riconosciuti dalla \"paletta\" bianca e nera",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 448,
+      "question_it": "Il motociclista che parte dal margine della carreggiata e si immette nel flusso della circolazione può indossare il casco dopo avere concluso tale manovra",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 449,
+      "question_it": "Durante le operazioni di presegnalazione con il segnale mobile di pericolo il conducente deve rendersi visibile indossando il giubbotto o le bretelle retroriflettenti ad alta visibilità",
+      "answer": true,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 450,
+      "question_it": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità da usare durante le operazioni di presegnalazione con il segnale mobile di pericolo devono essere di tipo approvato",
+      "answer": true,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 451,
+      "question_it": "Durante le operazioni di presegnalazione con il segnale mobile di pericolo il conducente deve indossare il giubbotto ad alta visibilità anche se si trova sulle corsie di emergenza o sulle piazzole di sosta",
+      "answer": true,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 452,
+      "question_it": "Per effettuare le operazioni di presegnalazione con il segnale mobile di pericolo è vietato al conducente scendere dal veicolo e circolare sulla strada senza indossare il giubbotto ad alta visibilità",
+      "answer": true,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 453,
+      "question_it": "Durante le operazioni di presegnalazione con il segnale mobile di pericolo è facoltativo l'uso del giubbotto o delle bretelle retroriflettenti ad alta visibilità",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 454,
+      "question_it": "Il conducente deve indossare il giubbotto ad alta visibilità di notte, anche nei centri abitati, qualora debba fermarsi sulla carreggiata perché il suo veicolo ha un guasto",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 455,
+      "question_it": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità possono sostituire, in ogni caso, il triangolo mobile di pericolo",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 456,
+      "question_it": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità possono essere solo di colore giallo",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 457,
+      "question_it": "Il giubbotto retroriflettente ad alta visibilità protegge il conducente anche da rischi chimici, calore, fuoco ed elettricità",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 458,
+      "question_it": "All'interno del veicolo bisogna tenere giubbotti o bretelle retroriflettenti ad alta visibilità, in numero pari a quello dei posti disponibili",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 459,
+      "question_it": "L'obbligo di indossare il giubbotto ad alta visibilità si ha quando si sosta fuori dai centri abitati, mentre le bretelle retroriflettenti vanno indossate nelle aree urbane",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 460,
+      "question_it": "Il giubbotto retroriflettente ad alta visibilità serve per chiedere aiuto agli automobilisti in transito",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 461,
+      "question_it": "Il giubbotto retroriflettente ad alta visibilità è utile solo quando si deve sostituire una ruota forata",
+      "answer": false,
+      "topic": "giubbotto_alta_visibilita",
+      "source_page": 30
+    },
+    {
+      "number": 462,
+      "question_it": "Il casco è obbligatorio per i conducenti di ciclomotori a due ruote",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 30
+    },
+    {
+      "number": 463,
+      "question_it": "Il casco è obbligatorio per i conducenti di motocicli non dotati di cellula di sicurezza e di dispositivi di ritenuta",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 464,
+      "question_it": "Il casco è obbligatorio per il passeggero di un motociclo privo di cellula di sicurezza e sistemi di ritenuta",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 465,
+      "question_it": "Il casco è obbligatorio per il passeggero di un ciclomotore a due ruote, anche se maggiorenne",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 466,
+      "question_it": "Il casco è obbligatorio per i conducenti di ciclomotori a due ruote, solo se minorenni",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 467,
+      "question_it": "Il casco non è obbligatorio per i conducenti di ciclomotori a due ruote, titolari di patente della categoria B",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 468,
+      "question_it": "Il casco non è obbligatorio per i conducenti di ciclomotori a due ruote",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 469,
+      "question_it": "Il casco subisce un processo di invecchiamento dovuto a luce e calore",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 470,
+      "question_it": "La pulizia del casco deve essere effettuata con detersivi non corrosivi",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 471,
+      "question_it": "Il casco non deve essere pulito con solventi",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 472,
+      "question_it": "Il casco non deve essere pulito con benzina",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 473,
+      "question_it": "L'uso del casco è necessario per ridurre gli effetti di eventuali urti alla testa",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 474,
+      "question_it": "Il casco integrale protegge anche il viso da traumi e lesioni in caso di incidente",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 475,
+      "question_it": "È bene che il casco sia dotato di visiera",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 476,
+      "question_it": "La visiera del casco protegge il viso e gli occhi da impatti con insetti",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 477,
+      "question_it": "Il casco deve essere di taglia corretta",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 478,
+      "question_it": "Il casco deve essere sostituito dopo che abbia subito un forte urto, anche se non mostra deformazioni sulla calotta esterna",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 479,
+      "question_it": "La robustezza della calotta esterna del casco potrebbe essere compromessa da solventi presenti in vernici o colle",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 480,
+      "question_it": "Durante la marcia, il casco deve essere sempre correttamente allacciato",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 481,
+      "question_it": "Indossare il casco in modo errato o senza averlo correttamente allacciato può comportare gravi rischi alla salute in caso di caduta o incidente",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 482,
+      "question_it": "Il casco deve essere indossato anche per spostamenti brevi e a bassa velocità",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 483,
+      "question_it": "Il casco deve essere indossato anche a bordo dei quadricicli a motore privi di carrozzeria (Quad)",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 484,
+      "question_it": "La visiera del casco deve essere sostituita se rigata o danneggiata",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 485,
+      "question_it": "La visiera del casco deve garantire la perfetta visione con qualunque condizione di luce o illuminazione",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 486,
+      "question_it": "Il sistema di aerazione del casco consente di limitare il pericolo di appannamento della visiera",
+      "answer": true,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 487,
+      "question_it": "Sul casco possono essere applicati adesivi di qualunque tipo, purché non coprano la visiera",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 488,
+      "question_it": "Il casco deve essere periodicamente pulito con benzina o acquaragia per sgrassarlo ed eliminare resti di insetti",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 489,
+      "question_it": "Il casco deve essere completamente allacciato solo sui percorsi extraurbani",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 490,
+      "question_it": "Quando si circola nelle zone a velocità controllata inferiore a 30 km/h, non è obbligatorio l'uso del casco",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 491,
+      "question_it": "L'uso del casco è obbligatorio su qualunque quadriciclo a motore",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 492,
+      "question_it": "Il casco conserva invariate le sue caratteristiche protettive per periodi lunghissimi, di oltre venti anni",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 493,
+      "question_it": "Il casco integrale non può essere utilizzato quando si circola nei centri urbani ad alta densità di circolazione",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 494,
+      "question_it": "Il casco integrale è inutile se si circola a bordo di un ciclomotore a due ruote",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 495,
+      "question_it": "L'obbligo dell'uso del casco non riguarda i maggiorenni con più di tre anni di esperienza di guida",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 496,
+      "question_it": "L'uso del casco durante la marcia diventa facoltativo quando la temperatura dell'aria è superiore ai trenta gradi",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 497,
+      "question_it": "La visiera del casco peggiora notevolmente la visibilità e quindi va usata il meno possibile",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 498,
+      "question_it": "La calotta del casco può essere riparata con nastro adesivo di tipo speciale, se presenta una rottura inferiore ai tre centimetri",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 499,
+      "question_it": "La visiera del casco può essere riparata con nastro adesivo, purché sia di tipo ultra trasparente",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 500,
+      "question_it": "I caschi da utilizzare alla guida dei ciclomotori non necessitano di omologazione",
+      "answer": false,
+      "topic": "casco",
+      "source_page": 31
+    },
+    {
+      "number": 501,
+      "question_it": "Gli stivali ad uso motociclistico permettono una giusta protezione di piedi e caviglie quando si è alla guida di veicolo a due ruote",
+      "answer": true,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 502,
+      "question_it": "Gli stivali ad uso motociclistico riducono gli effetti di distorsioni in caso di appoggio impreciso dei piedi e proteggono le articolazioni della caviglia dal freddo",
+      "answer": true,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 503,
+      "question_it": "Gli stivali ad uso motociclistico sono privi di nastri liberi o stringhe per evitarne l'aggancio alle pedivelle dei motocicli",
+      "answer": true,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 504,
+      "question_it": "Gli stivali ad uso motociclistico proteggono i piedi da abrasioni sull'asfalto in caso di caduta",
+      "answer": true,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 505,
+      "question_it": "Gli stivali ad uso motociclistico sono omologati secondo norme internazionali",
+      "answer": true,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 506,
+      "question_it": "Le calzature omologate per l'uso motociclistico sono progettate per non scalzarsi in caso di caduta",
+      "answer": true,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 507,
+      "question_it": "Al posto degli stivali ad uso motociclistico si possono utilizzare scarpe da trekking in alta montagna, perché sono di analoga concezione",
+      "answer": false,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 508,
+      "question_it": "Gli stivali ad uso motociclistico sono dotati di doppie stringhe per evitare scalzamenti",
+      "answer": false,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 509,
+      "question_it": "Gli stivali ad uso motociclistico hanno la suola in acciaio",
+      "answer": false,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 510,
+      "question_it": "Gli stivali ad uso motociclistico coprono la gamba fin sopra il ginocchio per proteggere meglio il conducente in caso di caduta",
+      "answer": false,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 511,
+      "question_it": "Gli stivali ad uso motociclistico devono essere interamente realizzati in gomma ignifuga",
+      "answer": false,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 512,
+      "question_it": "Non esistono specifici stivali ad uso motociclistico, pertanto è bene utilizzare calzature robuste del tipo utilizzato per caccia, pesca o alpinismo",
+      "answer": false,
+      "topic": "abbigliamento_stivali",
+      "source_page": 32
+    },
+    {
+      "number": 513,
+      "question_it": "Guidando ciclomotori o motocicli è consigliabile utilizzare guanti protettivi per le mani",
+      "answer": true,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 514,
+      "question_it": "I guanti da motociclisti omologati proteggono in particolar modo il dorso della mano in caso di impatto con corpi duri",
+      "answer": true,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 515,
+      "question_it": "I guanti da motociclisti proteggono il palmo della mano in caso di caduta con strisciamento sull'asfalto",
+      "answer": true,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 516,
+      "question_it": "I guanti da motociclisti garantiscono la giusta sensibilità durante la guida e una presa più sicura sui comandi",
+      "answer": true,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 517,
+      "question_it": "I guanti da motociclisti possono avere imbottiture diverse a seconda della stagione",
+      "answer": true,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 518,
+      "question_it": "Quando si circola a bordo di un motociclo, è opportuno indossare gli specifici guanti anche d'estate",
+      "answer": true,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 519,
+      "question_it": "I guanti ad uso motociclistico hanno speciali sistemi di aggancio per impedire il loro sfilamento in caso di caduta",
+      "answer": true,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 520,
+      "question_it": "Non esistono guanti ad uso motociclistico di tipo omologato",
+      "answer": false,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 521,
+      "question_it": "I guanti ad uso motociclistico possono essere sostituiti dai guanti da sci, ma solo nella stagione fredda",
+      "answer": false,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 522,
+      "question_it": "Se si guida un motociclo senza guanti si può intervenire più rapidamente sui comandi",
+      "answer": false,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 523,
+      "question_it": "I guanti ad uso motociclistico si riconoscono perché di colore nero e con una sagoma di moto stampigliata sul polso",
+      "answer": false,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 524,
+      "question_it": "I guanti ad uso motociclistico coprono anche il gomito per proteggere meglio in caso di caduta",
+      "answer": false,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 525,
+      "question_it": "I guanti ad uso motociclistico non sono idonei alla guida di ciclomotori a due ruote",
+      "answer": false,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 526,
+      "question_it": "I guanti ad uso motociclistico hanno come principale scopo quello di proteggere dal freddo, pertanto è inutile usarli l'estate",
+      "answer": false,
+      "topic": "guanti",
+      "source_page": 32
+    },
+    {
+      "number": 527,
+      "question_it": "Le giacche ad uso motociclistico garantiscono un'adeguata protezione all'abrasione in caso di scivolamento sull'asfalto",
+      "answer": true,
+      "topic": "giacca_abbigliamento",
+      "source_page": 32
+    },
+    {
+      "number": 528,
+      "question_it": "Le giacche ad uso motociclistico hanno inserti rigidi protettivi in corrispondenza delle articolazioni",
+      "answer": true,
+      "topic": "giacca_abbigliamento",
+      "source_page": 32
+    },
+    {
+      "number": 529,
+      "question_it": "Gli indumenti ad uso motociclistico omologati sono sottoposti a prove di resistenza al taglio e all'abrasione da impatto",
+      "answer": true,
+      "topic": "giacca_abbigliamento",
+      "source_page": 32
+    },
+    {
+      "number": 530,
+      "question_it": "Gli indumenti ad uso motociclistico omologati sono sottoposti a prove di resistenza al lavaggio",
+      "answer": false,
+      "topic": "giacca_abbigliamento",
+      "source_page": 32
+    },
+    {
+      "number": 531,
+      "question_it": "Le giacche ad uso motociclistico non sono previste per utilizzo estivo",
+      "answer": false,
+      "topic": "giacca_abbigliamento",
+      "source_page": 32
+    },
+    {
+      "number": 532,
+      "question_it": "Le giacche ad uso motociclistico, per essere omologate devono essere unicamente di colore nero",
+      "answer": false,
+      "topic": "giacca_abbigliamento",
+      "source_page": 32
+    },
+    {
+      "number": 533,
+      "question_it": "L'abbigliamento del motociclista non incide sulla sua visibilità nel traffico",
+      "answer": false,
+      "topic": "giacca_abbigliamento",
+      "source_page": 32
+    }
   ]
 }

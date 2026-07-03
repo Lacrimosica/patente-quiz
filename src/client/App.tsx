@@ -1,13 +1,19 @@
 import { useState } from "react";
 import QuestionCard from "./components/QuestionCard";
 import { useQuestions } from "./hooks/useQuestions";
+import { useTopics } from "./hooks/useTopics";
 
 export default function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState<boolean | null>(null);
+  const [topic, setTopic] = useState<string | null>(null); // State to track the selected topic
   const hasAnswered = userAnswer !== null; //derived, not stored
   const [score, setScore] = useState(0); // State to track the user's score
-  const { questions, loading, error } = useQuestions();
+  const { questions, loading, error } = useQuestions(
+    topic !== null ? { topic } : {}
+  );
+
+  const { topics } = useTopics(); // Custom hook to fetch topics
 
 
   const progress = questions.length > 0
@@ -16,6 +22,14 @@ export default function App() {
 
   const currentQuestion = questions[currentIndex];
 
+
+
+  function handleTopicChange(value: string) {
+    setTopic(value === "" ? null : value);  // "" at the DOM edge → null in state
+    setCurrentIndex(0);
+    setScore(0);
+    setUserAnswer(null);
+  }
 
   function handleAnswer(choice: boolean) {
     setUserAnswer(choice);
@@ -31,7 +45,10 @@ export default function App() {
   if (error) return <p className="text-lg font-semibold p-4 rounded-lg m-auto text-red-500">Errore: {error}</p>;
   const isComplete = questions.length > 0 && currentIndex >= questions.length;
 
+
   if (isComplete) {
+
+    {/* show results */ }
     const percent = Math.round((score / questions.length) * 100);
     return (
       <main className="max-w-xl mx-auto px-4 py-10">
@@ -43,6 +60,7 @@ export default function App() {
           <p className="text-gray-600">{score} corretti su {questions.length}</p>
         </div>
 
+        {/* restart button */}
         <button
           onClick={() => window.location.reload()}
           className="mt-6 w-full py-3 rounded-lg bg-gray-900 text-white font-medium
@@ -58,6 +76,7 @@ export default function App() {
       <main className="max-w-xl mx-auto px-4 py-10">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">Patente Quiz</h1>
 
+
         {/* progress bar */}
         <div className="mb-6">
           <div className="flex justify-between text-sm text-gray-500 mb-1">
@@ -70,7 +89,18 @@ export default function App() {
               style={{ width: `${progress}%` }}
             />
           </div>
+
         </div>
+        <select
+          value={topic ?? ""}
+          onChange={(e) => handleTopicChange(e.target.value)}
+          className="mb-4 w-full rounded-lg border border-gray-200 bg-white px-3 py-2"
+        >
+          <option value="">Tutti gli argomenti</option>
+          {topics.map((t) => (
+            <option key={t} value={t}>{t}</option>
+          ))}
+        </select>
 
         {/* single card */}
         <QuestionCard

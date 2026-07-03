@@ -9,6 +9,13 @@ export interface QuestionFilters {
 }
 
 
+export async function listTopics(db: D1Database): Promise<string[]> {
+  const result = await db
+    .prepare("SELECT DISTINCT topic FROM questions ORDER BY topic ASC")
+    .all<{ topic: string }>();
+  return result.results.map((row) => row.topic);
+}
+
 export async function listQuestions(
   db: D1Database,
   filters: QuestionFilters = {}

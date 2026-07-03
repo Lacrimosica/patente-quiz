@@ -1,4 +1,4 @@
-import { listQuestions } from "./queries.js";
+import { listQuestions, listTopics } from "./queries.js";
 
 export interface Env {
   DB: D1Database;
@@ -20,6 +20,9 @@ export default {
       });
 
       return Response.json(questions);
+    } else if (request.method === "GET" && url.pathname === "/api/topics") {
+      const topics = await listTopics(env.DB);
+      return Response.json(topics);
     }
 
     return new Response("Not Found", { status: 404 });

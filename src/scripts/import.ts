@@ -23,9 +23,8 @@ function buildInserts(chapter: RawChapter): string[] {
     lines.push(
       `INSERT OR REPLACE INTO questions (id, chapter, chapter_title, number, question_it, question_en, answer, topic, source_page) VALUES ('${escapeSql(id)}', ${chapter.chapter}, '${escapeSql(chapter.chapterTitle)}', ${q.number}, '${escapeSql(q.question_it)}', ${questionEn}, ${answer}, ${topic}, ${sourcePage});`
     );
-    lines.push(
-      `INSERT OR IGNORE INTO review_state (question_id) VALUES ('${escapeSql(id)}');`
-    );
+    // review_state rows are per-user and created lazily on first answer; the
+    // importer only seeds re-importable question content.
   }
   return lines;
 }

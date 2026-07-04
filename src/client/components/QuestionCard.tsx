@@ -1,21 +1,34 @@
+export interface QuestionStats {
+  timesReviewed: number;
+  timesCorrect: number;
+  timesIncorrect: number;
+}
+
 interface Props {
-  number: number;
+  chapter: number;
+  bookNumber: number; // question number as printed in the book (within its chapter)
+  sourcePage: number | null; // page in the book, nullable
   text: string;
   answer: boolean;
   userAnswer: boolean | null;
+  stats: QuestionStats;
   onAnswer: (choice: boolean) => void; // Callback to notify parent component of the user's answer
 }
 
-function QuestionCard({ number, text, answer, userAnswer, onAnswer }: Props) {
+function QuestionCard({ chapter, bookNumber, sourcePage, text, answer, userAnswer, stats, onAnswer }: Props) {
 
   const hasAnswered = userAnswer !== null;
   const isCorrect = userAnswer === answer; // Check if the user's answer is correct
 
   return (
     <div className="rounded-lg border  border-gray-200 bg-blue-50 p-6 mb-4 shadow-sm">
-           <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
-        Domanda {number}
-      </span>
+      <div className="flex items-center justify-between mb-1">
+        <span className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+          Cap. {chapter} · Domanda {bookNumber}
+          {sourcePage !== null && ` · pag. ${sourcePage}`}
+        </span>
+        <QuestionStatsBadge stats={stats} />
+      </div>
       <p className=" text-gray-900 text-base mb-4">{text}</p>
 
       {!hasAnswered ? (
@@ -34,6 +47,28 @@ function QuestionCard({ number, text, answer, userAnswer, onAnswer }: Props) {
             : `Sbagliato. La risposta è ${answer ? "Vero" : "Falso"}.`}
         </p>
       )}
+    </div>
+  );
+}
+
+/** Per-user history for this question: reviewed / correct / incorrect counts. */
+function QuestionStatsBadge({ stats }: { stats: QuestionStats }) {
+  if (stats.timesReviewed === 0) {
+    return (
+      <span className="text-xs text-gray-400">Mai vista</span>
+    );
+  }
+  return (
+    <div className="flex items-center gap-2 text-xs">
+      <span className="text-gray-500" title="Volte riviste">
+        {stats.timesReviewed}× riviste
+      </span>
+      <span className="text-green-600 font-medium" title="Risposte corrette">
+        ✓ {stats.timesCorrect}
+      </span>
+      <span className="text-red-600 font-medium" title="Risposte sbagliate">
+        ✗ {stats.timesIncorrect}
+      </span>
     </div>
   );
 }

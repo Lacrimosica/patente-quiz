@@ -23,6 +23,25 @@ The core table. One row per question from the book.
 | `answer` | INTEGER | 1 = true (V), 0 = false (F) |
 | `topic` | TEXT | free-text tag, e.g. `alcohol`, `shock`, `first-aid-wounds`, `eye-injury` |
 | `source_page` | INTEGER | nullable, page number in the book, useful for re-checking against the source |
+| `figure_id` | TEXT | nullable, FOREIGN KEY -> figures.id; the shared image for this question (see ADR 0002). Many questions may point at one figure (a *scheda*). |
+| `figure_locked` | INTEGER | 0/1, default 0. When 1, an admin has set/confirmed `figure_id` manually and the auto-match pass must not overwrite it. |
+
+### `figures` (the image library)
+
+The shared image library (see ADR 0002). One row per unique figure (road sign, or carriageway /
+intersection / right-of-way diagram). Seeded from [QuizPatenteB](https://github.com/Ed0ardo/QuizPatenteB)
+`img_sign/`. Many questions reference one figure (a *scheda*). Image bytes ship as static assets,
+not in the DB.
+
+| column | type | notes |
+|---|---|---|
+| `id` | TEXT PRIMARY KEY | stable key, e.g. `sign-550` (derived from the QuizPatenteB file name) |
+| `file` | TEXT NOT NULL | static-asset path, e.g. `figures/550.png` |
+| `alt_it` | TEXT | accessibility text + fallback when the image is missing |
+| `alt_en` | TEXT | nullable translation |
+| `width` | INTEGER | nullable intrinsic width, so the card reserves space (no layout shift) |
+| `height` | INTEGER | nullable intrinsic height |
+| `source` | TEXT | provenance, e.g. `quizpatenteb`; leaves room for a future `wikimedia` upgrade |
 
 ### `users`
 
@@ -34,6 +53,7 @@ Basic user accounts (see ADR 0001). Passwords are hashed with PBKDF2-SHA256 via 
 | `username` | TEXT UNIQUE NOT NULL | 3-32 chars, `[a-zA-Z0-9_.-]` |
 | `password_hash` | TEXT NOT NULL | `pbkdf2$<iters>$<saltB64>$<hashB64>`; never leaves the server |
 | `created_at` | TEXT NOT NULL | ISO timestamp |
+| `is_admin` | INTEGER | 0/1, default 0. Admins may set/lock question figures (see ADR 0002). |
 
 ### `sessions`
 

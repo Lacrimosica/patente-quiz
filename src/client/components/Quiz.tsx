@@ -1,9 +1,24 @@
 import { useState } from "react";
 import QuestionCard from "./QuestionCard";
+import type { QuestionStats } from "./QuestionCard";
 import { useQuestions } from "../hooks/useQuestions";
 import { useTopics } from "../hooks/useTopics";
 import { submitAnswer } from "../hooks/useAuth";
-import type { User } from "../../shared/types";
+import type { QuestionRow, ReviewState, User } from "../../shared/types";
+
+/** Per-user reviewed/correct/incorrect counts for a question. */
+function statsFor(
+  question: QuestionRow,
+  freshReview: ReviewState | null
+): QuestionStats {
+  const timesReviewed = freshReview?.times_reviewed ?? question.times_reviewed ?? 0;
+  const timesCorrect = freshReview?.times_correct ?? question.times_correct ?? 0;
+  return {
+    timesReviewed,
+    timesCorrect,
+    timesIncorrect: timesReviewed - timesCorrect,
+  };
+}
 
 interface Props {
   user: User;
@@ -16,6 +31,10 @@ export default function Quiz({ user, onLogout }: Props) {
   const [topic, setTopic] = useState<string | null>(null); // State to track the selected topic
   const hasAnswered = userAnswer !== null; //derived, not stored
   const [score, setScore] = useState(0); // State to track the user's score
+  // Fresh review counts returned by the server after answering the current
+  // question — takes precedence over the (stale) values loaded with the list.
+  const [freshReview, setFreshReview] = useState<ReviewState | null>(null);
+  const [jumpValue, setJumpValue] = useState(""); // "go to question N" input
   const { questions, loading, error } = useQuestions(
     topic !== null ? { topic } : {}
   );
@@ -33,6 +52,7 @@ export default function Quiz({ user, onLogout }: Props) {
     setCurrentIndex(0);
     setScore(0);
     setUserAnswer(null);
+    setFreshReview(null);
   }
 
   async function handleAnswer(choice: boolean) {
@@ -41,6 +61,7 @@ export default function Quiz({ user, onLogout }: Props) {
     try {
       const result = await submitAnswer(currentQuestion.id, choice);
       if (result.correct) setScore((s) => s + 1);
+      setFreshReview(result.reviewState); // reflect the updated counts live
     } catch {
       // Fall back to local scoring if the request fails.
       if (choice === (currentQuestion.answer === 1)) setScore((s) => s + 1);
@@ -50,6 +71,27 @@ export default function Quiz({ user, onLogout }: Props) {
   function handleNext() {
     setCurrentIndex(i => i + 1);
     setUserAnswer(null); // explicit reset — the key remount no longer does this for you
+    setFreshReview(null);
+  }
+
+  // Step forward/backward by `delta` questions, clamped to the list bounds.
+  function goBy(delta: number) {
+    if (questions.length === 0) return;
+    setCurrentIndex((i) => Math.min(Math.max(i + delta, 0), questions.length - 1));
+    setUserAnswer(null);
+    setFreshReview(null);
+  }
+
+  // Jump straight to a question by its position (1-based, as shown on the card).
+  function handleJump(e: React.FormEvent) {
+    e.preventDefault();
+    const n = parseInt(jumpValue, 10);
+    if (!Number.isFinite(n) || questions.length === 0) return;
+    const clamped = Math.min(Math.max(n, 1), questions.length);
+    setCurrentIndex(clamped - 1);
+    setUserAnswer(null);
+    setFreshReview(null);
+    setJumpValue("");
   }
 
   if (loading) return <p className="text-lg font-semibold p-4 rounded-lg m-auto text-gray-500" >Caricamento...</p>;
@@ -122,13 +164,64 @@ export default function Quiz({ user, onLogout }: Props) {
           ))}
         </select>
 
+        {/* jump to a specific question by its position */}
+        <form onSubmit={handleJump} className="mb-4 flex gap-2">
+          <input
+            type="number"
+            min={1}
+            max={questions.length}
+            value={jumpValue}
+            onChange={(e) => setJumpValue(e.target.value)}
+            placeholder={`Vai alla domanda (1–${questions.length})`}
+            className="flex-1 rounded-lg border border-gray-200 bg-white px-3 py-2"
+          />
+          <button
+            type="submit"
+            className="px-4 py-2 rounded-lg bg-gray-900 text-white font-medium
+                     hover:bg-gray-700 transition-colors cursor-pointer"
+          >
+            Vai
+          </button>
+        </form>
+
+        {/* step navigation: jump by ±1 / ±10 / ±100 questions */}
+        <div className="mb-4 flex items-center justify-between gap-1">
+          {[-100, -10, -1].map((d) => (
+            <button
+              key={d}
+              type="button"
+              onClick={() => goBy(d)}
+              disabled={currentIndex === 0}
+              className="flex-1 px-2 py-2 rounded-lg border border-gray-200 bg-white text-sm font-medium
+                       hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-colors"
+            >
+              ← {Math.abs(d)}
+            </button>
+          ))}
+          {[1, 10, 100].map((d) => (
+            <button
+              key={d}
+              type="button"
+              onClick={() => goBy(d)}
+              disabled={currentIndex >= questions.length - 1}
+              className="flex-1 px-2 py-2 rounded-lg border border-gray-200 bg-white text-sm font-medium
+                       hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-colors"
+            >
+              {d} →
+            </button>
+          ))}
+        </div>
+
         {/* single card */}
         <QuestionCard
           key={currentQuestion.id}
-          number={currentIndex + 1}
+          chapter={currentQuestion.chapter}
+          bookNumber={currentQuestion.number}
+          sourcePage={currentQuestion.source_page}
           text={currentQuestion.question_it}
           answer={currentQuestion.answer === 1}
           userAnswer={userAnswer}
+          stats={statsFor(currentQuestion, freshReview)}
           onAnswer={handleAnswer}
         />
 

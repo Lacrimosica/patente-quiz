@@ -111,7 +111,7 @@ No unit tests for the import script's SQL generation — the idempotency guarant
 - Frontend routes and UI (separate PRD)
 - Quiz session logic (separate PRD)
 - Phase 2: Vectorize, Workers AI, RAG explanation generation
-- Auth (the app is local-first; auth is a deliberate non-goal for now)
+- ~~Auth (the app is local-first; auth is a deliberate non-goal for now)~~ — **superseded by ADR 0001**: username/password auth and per-user answer tracking were added in migration 0002.
 - Hosting / custom domain setup
 - CI/CD pipeline
 

@@ -24,17 +24,56 @@ The core table. One row per question from the book.
 | `topic` | TEXT | free-text tag, e.g. `alcohol`, `shock`, `first-aid-wounds`, `eye-injury` |
 | `source_page` | INTEGER | nullable, page number in the book, useful for re-checking against the source |
 
-### `review_state`
+### `users`
 
-Live app state per question. Separate table so re-importing `questions` never touches this.
+Basic user accounts (see ADR 0001). Passwords are hashed with PBKDF2-SHA256 via Web Crypto.
 
 | column | type | notes |
 |---|---|---|
-| `question_id` | TEXT PRIMARY KEY, FOREIGN KEY -> questions.id | |
-| `doubt_flagged` | INTEGER | 0/1, your "I'm not sure about this one" flag |
+| `id` | TEXT PRIMARY KEY | `crypto.randomUUID()` |
+| `username` | TEXT UNIQUE NOT NULL | 3-32 chars, `[a-zA-Z0-9_.-]` |
+| `password_hash` | TEXT NOT NULL | `pbkdf2$<iters>$<saltB64>$<hashB64>`; never leaves the server |
+| `created_at` | TEXT NOT NULL | ISO timestamp |
+
+### `sessions`
+
+Server-side session tokens. The raw token lives only in an `HttpOnly` cookie; the DB stores its hash.
+
+| column | type | notes |
+|---|---|---|
+| `token_hash` | TEXT PRIMARY KEY | SHA-256 of the raw cookie token |
+| `user_id` | TEXT, FOREIGN KEY -> users.id ON DELETE CASCADE | |
+| `created_at` | TEXT NOT NULL | ISO timestamp |
+| `expires_at` | TEXT NOT NULL | ISO timestamp; expired sessions are rejected |
+
+### `answers`
+
+Append-only log — one row per answer event. The durable record of who answered what, when.
+
+| column | type | notes |
+|---|---|---|
+| `id` | INTEGER PRIMARY KEY AUTOINCREMENT | |
+| `user_id` | TEXT, FOREIGN KEY -> users.id ON DELETE CASCADE | |
+| `question_id` | TEXT, FOREIGN KEY -> questions.id | |
+| `chosen` | INTEGER | 0/1, the answer the user picked |
+| `correct` | INTEGER | 0/1, whether `chosen` matched `questions.answer` |
+| `answered_at` | TEXT | ISO timestamp |
+
+### `review_state`
+
+Live per-user aggregate state per question. Composite key `(user_id, question_id)`; rows are created
+lazily on first answer (the importer no longer seeds this table). Separate from `questions` so
+re-importing question content never touches it.
+
+| column | type | notes |
+|---|---|---|
+| `user_id` | TEXT, FOREIGN KEY -> users.id ON DELETE CASCADE | part of composite PK |
+| `question_id` | TEXT, FOREIGN KEY -> questions.id | part of composite PK |
+| `doubt_flagged` | INTEGER | 0/1, "I'm not sure about this one" flag |
 | `confidence` | INTEGER | nullable, 1-5 self-rating |
 | `times_reviewed` | INTEGER | default 0 |
 | `times_correct` | INTEGER | default 0 |
+| `last_answer` | INTEGER | nullable 0/1, the most recent answer given |
 | `last_reviewed_at` | TEXT | ISO timestamp, nullable |
 
 ### `documents` (reserved, phase 2)

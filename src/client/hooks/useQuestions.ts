@@ -4,6 +4,7 @@ import type { QuestionRow } from "../../shared/types";
 interface Filters {
   chapter?: number;
   topic?: string;
+  favoritesOnly?: boolean;
 }
 
 export function useQuestions(filters: Filters = {}) {
@@ -22,6 +23,8 @@ export function useQuestions(filters: Filters = {}) {
           params.set("chapter", String(filters.chapter));
         if (filters.topic !== undefined)
           params.set("topic", filters.topic);
+        if (filters.favoritesOnly)
+          params.set("favoritesOnly", "true");
 
         const url = `/api/questions${params.size > 0 ? `?${params}` : ""}`;
         const res = await fetch(url);
@@ -35,7 +38,7 @@ export function useQuestions(filters: Filters = {}) {
       }
     }
     load();
-  }, [filters.chapter, filters.topic]);
+  }, [filters.chapter, filters.topic, filters.favoritesOnly]);
 
   return { questions, loading, error };
 }

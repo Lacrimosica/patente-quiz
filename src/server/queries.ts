@@ -10,6 +10,7 @@ export interface QuestionFilters {
   chapter?: number;
   topic?: string;
   doubtOnly?: boolean;
+  favoritesOnly?: boolean;
 }
 
 /** Internal user row — carries password_hash, never returned to clients. */
@@ -122,7 +123,7 @@ export async function recordAnswer(
 
   const state = await db
     .prepare(
-      `SELECT doubt_flagged, confidence, times_reviewed, times_correct,
+      `SELECT doubt_flagged, favorited, confidence, times_reviewed, times_correct,
               last_answer, last_reviewed_at
        FROM review_state WHERE user_id = ? AND question_id = ?`
     )
@@ -130,6 +131,29 @@ export async function recordAnswer(
     .first<ReviewState>();
   // Row is guaranteed to exist after the upsert above.
   return state!;
+}
+
+/**
+ * Sets (or clears) the per-user "favorite / important" flag for a question,
+ * creating the review_state row if the user has never touched the question.
+ * Returns the resulting flag as 0/1.
+ */
+export async function setFavorite(
+  db: D1Database,
+  userId: string,
+  questionId: string,
+  favorited: boolean
+): Promise<number> {
+  const value = favorited ? 1 : 0;
+  await db
+    .prepare(
+      `INSERT INTO review_state (user_id, question_id, favorited)
+       VALUES (?, ?, ?)
+       ON CONFLICT(user_id, question_id) DO UPDATE SET favorited = excluded.favorited`
+    )
+    .bind(userId, questionId, value)
+    .run();
+  return value;
 }
 
 
@@ -160,6 +184,9 @@ export async function listQuestions(
   if (filters.doubtOnly) {
     conditions.push("rs.doubt_flagged = 1");
   }
+  if (filters.favoritesOnly) {
+    conditions.push("rs.favorited = 1");
+  }
 
   const where =
     conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
@@ -168,7 +195,7 @@ export async function listQuestions(
     SELECT
       q.id, q.chapter, q.chapter_title, q.number,
       q.question_it, q.question_en, q.answer, q.topic, q.source_page,
-      rs.doubt_flagged, rs.confidence, rs.times_reviewed,
+      rs.doubt_flagged, rs.favorited, rs.confidence, rs.times_reviewed,
       rs.times_correct, rs.last_answer, rs.last_reviewed_at
     FROM questions q
     LEFT JOIN review_state rs ON rs.question_id = q.id AND rs.user_id = ?
@@ -190,7 +217,7 @@ export async function getQuestion(
       `SELECT
         q.id, q.chapter, q.chapter_title, q.number,
         q.question_it, q.question_en, q.answer, q.topic, q.source_page,
-        rs.doubt_flagged, rs.confidence, rs.times_reviewed,
+        rs.doubt_flagged, rs.favorited, rs.confidence, rs.times_reviewed,
         rs.times_correct, rs.last_answer, rs.last_reviewed_at
       FROM questions q
       LEFT JOIN review_state rs ON rs.question_id = q.id AND rs.user_id = ?

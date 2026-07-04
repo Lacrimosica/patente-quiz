@@ -11,11 +11,13 @@ interface Props {
   text: string;
   answer: boolean;
   userAnswer: boolean | null;
+  favorited: boolean; // per-user "important" flag
   stats: QuestionStats;
   onAnswer: (choice: boolean) => void; // Callback to notify parent component of the user's answer
+  onToggleFavorite: () => void; // Callback to flag/unflag the question as important
 }
 
-function QuestionCard({ chapter, bookNumber, sourcePage, text, answer, userAnswer, stats, onAnswer }: Props) {
+function QuestionCard({ chapter, bookNumber, sourcePage, text, answer, userAnswer, favorited, stats, onAnswer, onToggleFavorite }: Props) {
 
   const hasAnswered = userAnswer !== null;
   const isCorrect = userAnswer === answer; // Check if the user's answer is correct
@@ -27,7 +29,20 @@ function QuestionCard({ chapter, bookNumber, sourcePage, text, answer, userAnswe
           Cap. {chapter} · Domanda {bookNumber}
           {sourcePage !== null && ` · pag. ${sourcePage}`}
         </span>
-        <QuestionStatsBadge stats={stats} />
+        <div className="flex items-center gap-3">
+          <QuestionStatsBadge stats={stats} />
+          <button
+            type="button"
+            onClick={onToggleFavorite}
+            aria-pressed={favorited}
+            title={favorited ? "Rimuovi dai preferiti" : "Segna come importante"}
+            className={`text-lg leading-none cursor-pointer transition-colors ${
+              favorited ? "text-amber-400 hover:text-amber-500" : "text-gray-300 hover:text-amber-400"
+            }`}
+          >
+            {favorited ? "★" : "☆"}
+          </button>
+        </div>
       </div>
       <p className=" text-gray-900 text-base mb-4">{text}</p>
 

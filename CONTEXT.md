@@ -32,8 +32,12 @@ ADRs, use the term as defined here rather than a synonym.
   Covers signs only, not carriageway/precedence diagrams. Not used yet.
 
 - **Review state** — per-user aggregate for a question (`times_reviewed`, `times_correct`,
-  `doubt_flagged`, `confidence`, …). Per-user, in `review_state`; never holds shared content like
-  `figure_id`.
+  `doubt_flagged`, `favorited`, `confidence`, …). Per-user, in `review_state`; never holds shared
+  content like `figure_id`.
+
+- **Favorite** (`favorited`) — a per-user "important" bookmark on a question, set from the quiz card
+  (☆/★). Mirrors `doubt_flagged`: a learner-set marker for questions to revisit. Toggled via
+  `POST /api/favorites`; filterable with `?favoritesOnly=true` on `GET /api/questions`.
 
 ## Decisions
 

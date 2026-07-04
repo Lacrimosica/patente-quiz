@@ -24,6 +24,7 @@ export interface QuestionRow {
   topic: string | null;
   source_page: number | null;
   doubt_flagged: number | null;
+  favorited: number | null;
   confidence: number | null;
   times_reviewed: number | null;
   times_correct: number | null;
@@ -41,6 +42,7 @@ export interface User {
 /** Per-user aggregate stats for one question. */
 export interface ReviewState {
   doubt_flagged: number;
+  favorited: number;
   confidence: number | null;
   times_reviewed: number;
   times_correct: number;

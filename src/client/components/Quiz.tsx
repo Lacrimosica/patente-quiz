@@ -3,7 +3,7 @@ import QuestionCard from "./QuestionCard";
 import type { QuestionStats } from "./QuestionCard";
 import { useQuestions } from "../hooks/useQuestions";
 import { useTopics } from "../hooks/useTopics";
-import { submitAnswer } from "../hooks/useAuth";
+import { submitAnswer, setFavorite } from "../hooks/useAuth";
 import type { QuestionRow, ReviewState, User } from "../../shared/types";
 
 /** Per-user reviewed/correct/incorrect counts for a question. */
@@ -29,15 +29,20 @@ export default function Quiz({ user, onLogout }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState<boolean | null>(null);
   const [topic, setTopic] = useState<string | null>(null); // State to track the selected topic
+  const [favoritesOnly, setFavoritesOnly] = useState(false); // filter: show only flagged questions
   const hasAnswered = userAnswer !== null; //derived, not stored
   const [score, setScore] = useState(0); // State to track the user's score
+  // Local optimistic overrides for the favorite flag, keyed by question id.
+  // Takes precedence over the (possibly stale) value loaded with the list.
+  const [favoriteOverrides, setFavoriteOverrides] = useState<Record<string, boolean>>({});
   // Fresh review counts returned by the server after answering the current
   // question — takes precedence over the (stale) values loaded with the list.
   const [freshReview, setFreshReview] = useState<ReviewState | null>(null);
   const [jumpValue, setJumpValue] = useState(""); // "go to question N" input
-  const { questions, loading, error } = useQuestions(
-    topic !== null ? { topic } : {}
-  );
+  const { questions, loading, error } = useQuestions({
+    ...(topic !== null ? { topic } : {}),
+    favoritesOnly,
+  });
 
   const { topics } = useTopics(); // Custom hook to fetch topics
 
@@ -66,6 +71,28 @@ export default function Quiz({ user, onLogout }: Props) {
       // Fall back to local scoring if the request fails.
       if (choice === (currentQuestion.answer === 1)) setScore((s) => s + 1);
     }
+  }
+
+  async function handleToggleFavorite() {
+    if (!currentQuestion) return;
+    const id = currentQuestion.id;
+    const next = !(favoriteOverrides[id] ?? currentQuestion.favorited === 1);
+    // Optimistic: flip immediately, revert if the request fails.
+    setFavoriteOverrides((prev) => ({ ...prev, [id]: next }));
+    try {
+      const saved = await setFavorite(id, next);
+      setFavoriteOverrides((prev) => ({ ...prev, [id]: saved }));
+    } catch {
+      setFavoriteOverrides((prev) => ({ ...prev, [id]: !next }));
+    }
+  }
+
+  function handleFavoritesOnlyChange(value: boolean) {
+    setFavoritesOnly(value);
+    setCurrentIndex(0);
+    setScore(0);
+    setUserAnswer(null);
+    setFreshReview(null);
   }
 
   function handleNext() {
@@ -164,6 +191,25 @@ export default function Quiz({ user, onLogout }: Props) {
           ))}
         </select>
 
+        {/* filter: only questions flagged as important */}
+        <label className="mb-4 flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={favoritesOnly}
+            onChange={(e) => handleFavoritesOnlyChange(e.target.checked)}
+            className="cursor-pointer"
+          />
+          ★ Solo domande importanti
+        </label>
+
+        {questions.length === 0 ? (
+          <p className="rounded-lg border border-gray-200 bg-white p-6 text-center text-gray-500">
+            {favoritesOnly
+              ? "Nessuna domanda importante. Segna una domanda con ☆ per aggiungerla."
+              : "Nessuna domanda."}
+          </p>
+        ) : (
+          <>
         {/* jump to a specific question by its position */}
         <form onSubmit={handleJump} className="mb-4 flex gap-2">
           <input
@@ -221,8 +267,10 @@ export default function Quiz({ user, onLogout }: Props) {
           text={currentQuestion.question_it}
           answer={currentQuestion.answer === 1}
           userAnswer={userAnswer}
+          favorited={favoriteOverrides[currentQuestion.id] ?? currentQuestion.favorited === 1}
           stats={statsFor(currentQuestion, freshReview)}
           onAnswer={handleAnswer}
+          onToggleFavorite={handleToggleFavorite}
         />
 
         {/* next button — only visible after answering */}
@@ -234,6 +282,8 @@ export default function Quiz({ user, onLogout }: Props) {
           >
             {currentIndex + 1 < questions.length ? "Prossima domanda →" : "Vedi risultati →"}
           </button>
+        )}
+          </>
         )}
       </main>
     );

@@ -33,6 +33,21 @@ export async function submitAnswer(
   return res.json();
 }
 
+/** Toggle the per-user "important / favorite" flag for a question. */
+export async function setFavorite(
+  questionId: string,
+  favorited: boolean
+): Promise<boolean> {
+  const res = await fetch("/api/favorites", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ questionId, favorited }),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = (await res.json()) as { favorited: boolean };
+  return data.favorited;
+}
+
 export function useAuth() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);

@@ -7,6 +7,7 @@ import {
   createSession,
   deleteSession,
   recordAnswer,
+  setFavorite,
 } from "./queries.js";
 import {
   hashPassword,
@@ -149,6 +150,30 @@ async function handleAnswer(request: Request, env: Env): Promise<Response> {
   return json(result);
 }
 
+async function handleFavorite(request: Request, env: Env): Promise<Response> {
+  const user = await authenticate(request, env.DB);
+  if (!user) return json({ error: "Not authenticated." }, { status: 401 });
+
+  const body = await request.json().catch(() => null);
+  const questionId = (body as { questionId?: unknown })?.questionId;
+  const favorited = (body as { favorited?: unknown })?.favorited;
+
+  if (typeof questionId !== "string" || typeof favorited !== "boolean") {
+    return json(
+      { error: "Expected { questionId: string, favorited: boolean }." },
+      { status: 400 }
+    );
+  }
+
+  const question = await getQuestion(env.DB, user.id, questionId);
+  if (!question) {
+    return json({ error: "Question not found." }, { status: 404 });
+  }
+
+  const value = await setFavorite(env.DB, user.id, questionId, favorited);
+  return json({ favorited: value === 1 });
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
@@ -176,6 +201,11 @@ export default {
       return handleAnswer(request, env);
     }
 
+    // --- Favorites (per-user "important" flag) ---
+    if (method === "POST" && pathname === "/api/favorites") {
+      return handleFavorite(request, env);
+    }
+
     // --- Questions (per-user review state → requires auth) ---
     if (method === "GET" && pathname === "/api/questions") {
       const user = await authenticate(request, env.DB);
@@ -184,11 +214,13 @@ export default {
       const chapterParam = url.searchParams.get("chapter");
       const topicParam = url.searchParams.get("topic");
       const doubtOnlyParam = url.searchParams.get("doubtOnly");
+      const favoritesOnlyParam = url.searchParams.get("favoritesOnly");
 
       const questions = await listQuestions(env.DB, user.id, {
         chapter: chapterParam !== null ? parseInt(chapterParam, 10) : undefined,
         topic: topicParam ?? undefined,
         doubtOnly: doubtOnlyParam === "true" || undefined,
+        favoritesOnly: favoritesOnlyParam === "true" || undefined,
       });
 
       return json(questions);

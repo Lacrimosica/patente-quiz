@@ -90,6 +90,7 @@ re-importing question content never touches it.
 | `user_id` | TEXT, FOREIGN KEY -> users.id ON DELETE CASCADE | part of composite PK |
 | `question_id` | TEXT, FOREIGN KEY -> questions.id | part of composite PK |
 | `doubt_flagged` | INTEGER | 0/1, "I'm not sure about this one" flag |
+| `favorited` | INTEGER | 0/1, default 0, per-user "important / favorite" bookmark (migration 0003) |
 | `confidence` | INTEGER | nullable, 1-5 self-rating |
 | `times_reviewed` | INTEGER | default 0 |
 | `times_correct` | INTEGER | default 0 |

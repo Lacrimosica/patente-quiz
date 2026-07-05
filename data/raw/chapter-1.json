@@ -6,56 +6,56 @@
       "number": 1,
       "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente si trova indicato tale obbligo",
       "answer": true,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
       "number": 2,
       "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente è stato inserito il codice armonizzato \"01\"",
       "answer": true,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
       "number": 3,
       "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente figura, per esteso o sotto forma di codice, tale obbligo",
       "answer": true,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
       "number": 4,
       "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto quando è indicato sulla patente",
       "answer": true,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
       "number": 5,
       "question_it": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto solo quando la miopia supera 6 diottrie",
       "answer": false,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
       "number": 6,
       "question_it": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto da mezz'ora dopo il tramonto del sole a mezz'ora prima del suo sorgere",
       "answer": false,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
       "number": 7,
       "question_it": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto soltanto in caso di scarsa visibilità",
       "answer": false,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
       "number": 8,
       "question_it": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto soltanto sulle autostrade e sulle strade extraurbane principali",
       "answer": false,
-      "topic": "occhiali_lenti",
+      "topic": "glasses_lenses",
       "source_page": 14
     },
     {
@@ -69,140 +69,140 @@
       "number": 10,
       "question_it": "I conducenti di autoveicoli trainanti un rimorchio, quando la massa complessiva a pieno carico del complesso veicolare è superiore a 3,5 tonnellate, sono considerati in stato di ebbrezza qualora sia stato accertato un valore corrispondente ad un tasso alcolemico superiore a zero grammi per litro",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 11,
       "question_it": "È opportuno, per il conducente che accusa segni di stanchezza, raggiungere la più vicina piazzola di sosta e riposare",
       "answer": true,
-      "topic": "fatica",
+      "topic": "fatigue",
       "source_page": 14
     },
     {
       "number": 12,
       "question_it": "È opportuno, per il conducente che accusa segni di stanchezza, avvicinarsi il più possibile al veicolo che lo precede nella marcia",
       "answer": false,
-      "topic": "fatica",
+      "topic": "fatigue",
       "source_page": 14
     },
     {
       "number": 13,
       "question_it": "È necessario che trascorrano alcune ore affinché un conducente che abbia assunto una quantità eccessiva di bevande alcoliche recuperi l'idoneità alla guida",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 14,
       "question_it": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche non può recuperare velocemente l'idoneità alla guida, specie se ha assunto anche dei farmaci",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 15,
       "question_it": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume cibi piuttosto salati",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 16,
       "question_it": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume caffè amaro",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 17,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di alcuni farmaci sedativi",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 18,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di farmaci antidepressivi",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 19,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di allucinogeni (LSD, ecstasy, ecc.)",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 20,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di bevande alcoliche",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 21,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di caffè amaro",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 22,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di bevande gassate",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 23,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di integratori di sali minerali",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 24,
       "question_it": "L'idoneità alla guida può essere compromessa se si fa uso di integratori alimentari",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 25,
       "question_it": "L'assunzione di hashish o di marijuana può compromettere la facoltà di guida",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 26,
       "question_it": "L'assunzione di eroina o di cocaina può compromettere la facoltà di guida",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 27,
       "question_it": "Nei farmaci sedativi sono presenti alcune sostanze che possono compromettere la facoltà di guida",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 28,
       "question_it": "L'assunzione di LSD o l'anfetamina non compromette la facoltà di guida",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
       "number": 29,
       "question_it": "L'assunzione di hashish o di marijuana non compromette la facoltà di guida",
       "answer": false,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 14
     },
     {
@@ -216,35 +216,35 @@
       "number": 31,
       "question_it": "L'alimentazione con cibi di difficile digestione può provocare una diminuzione dell'attenzione e un aumento dei tempi di reazione",
       "answer": true,
-      "topic": "alcol_farmaci_droghe",
+      "topic": "alcohol_medication_drugs",
       "source_page": 15
     },
     {
       "number": 32,
       "question_it": "L'assunzione di bevande superalcoliche, durante un pasto abbondante non compromette la facoltà di guida",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 33,
       "question_it": "L'alcool può causare uno stato di euforia, con conseguente sottovalutazione del pericolo",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 34,
       "question_it": "Chi guida in stato di ebbrezza alcolica rischia l'arresto",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 35,
       "question_it": "È sconsigliabile guidare quando si ha uno stato emotivo alterato",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
@@ -258,77 +258,77 @@
       "number": 37,
       "question_it": "Chi guida in stato di ebbrezza alcolica ha tempi di reazione più rapidi",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 38,
       "question_it": "L'assunzione di alcool rende meno sicura la guida, poiché può provocare eccitazione e imprudenza",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 39,
       "question_it": "L'assunzione di alcool rende meno sicura la guida, perché può rallentare i riflessi",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 40,
       "question_it": "L'assunzione di alcool rende meno sicura la guida, perché può provocare sonnolenza",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 41,
       "question_it": "L'assunzione di alcool rende meno sicura la guida, perché può modificare pericolosamente la capacità di concentrazione e attenzione",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 42,
       "question_it": "L'assunzione di alcool può far diminuire il livello di attenzione",
       "answer": true,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 43,
       "question_it": "L'assunzione di alcool rende più sicura la guida, perché annulla la stanchezza",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 44,
       "question_it": "L'assunzione di alcool facilita la guida, perché fa aumentare la capacità di concentrazione",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 45,
       "question_it": "L'assunzione di alcool facilita la guida, perché rende più vigili e attenti",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 46,
       "question_it": "L'assunzione di alcool rende la guida più sicura, più allegra e meno noiosa",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 47,
       "question_it": "L'assunzione di alcool migliora la vista",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
@@ -342,21 +342,21 @@
       "number": 49,
       "question_it": "Quando si è alla guida, la capacità di attenzione può essere influenzata anche dall'ascolto di musica a volume molto alto",
       "answer": true,
-      "topic": "attenzione_guida",
+      "topic": "driving_attention",
       "source_page": 15
     },
     {
       "number": 50,
       "question_it": "Parlare animosamente con altre persone a bordo del veicolo può influenzare negativamente il comportamento di guida",
       "answer": true,
-      "topic": "attenzione_guida",
+      "topic": "driving_attention",
       "source_page": 15
     },
     {
       "number": 51,
       "question_it": "I nostri sensi non riescono a cogliere tutti gli stimoli presenti nell'ambiente",
       "answer": true,
-      "topic": "attenzione_guida",
+      "topic": "driving_attention",
       "source_page": 15
     },
     {
@@ -370,329 +370,329 @@
       "number": 53,
       "question_it": "Bere un liquore ad alta gradazione alcolica permette di migliorare l'attenzione dopo circa 10 minuti dall'ingestione",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 54,
       "question_it": "Se si è stato di ebbrezza lieve, si riesce a guidare comunque in sicurezza",
       "answer": false,
-      "topic": "alcol",
+      "topic": "alcohol",
       "source_page": 15
     },
     {
       "number": 55,
       "question_it": "La quantità di attenzione che si può prestare alla strada mentre si guida è illimitata",
       "answer": false,
-      "topic": "attenzione_guida",
+      "topic": "driving_attention",
       "source_page": 15
     },
     {
       "number": 56,
       "question_it": "Con 0,5 grammi per litro di alcool nel sangue si riesce a concentrarsi meglio",
       "answer": false,
-      "topic": "attenzione_percezione",
+      "topic": "attention_perception",
       "source_page": 15
     },
     {
       "number": 57,
       "question_it": "I nostri sensi riescono a cogliere tutti gli stimoli presenti nell'ambiente",
       "answer": false,
-      "topic": "attenzione_percezione",
+      "topic": "attention_perception",
       "source_page": 15
     },
     {
       "number": 58,
       "question_it": "I nostri sensi sono in grado di percepire stimoli di qualunque intensità",
       "answer": false,
-      "topic": "attenzione_percezione",
+      "topic": "attention_perception",
       "source_page": 15
     },
     {
       "number": 59,
       "question_it": "In condizioni di traffico intenso lo stress può aiutare il conducente a mantenersi vigile",
       "answer": false,
-      "topic": "attenzione_percezione",
+      "topic": "attention_perception",
       "source_page": 15
     },
     {
       "number": 60,
       "question_it": "In caso di tamponamento tra veicoli in corrispondenza di un passaggio a livello, non si devono spostare i veicoli dai binari qualora vi siano stati feriti",
       "answer": false,
-      "topic": "emergency-response",
+      "topic": "emergency_response",
       "source_page": 15
     },
     {
       "number": 61,
       "question_it": "Soccorrere un ferito della strada può significare salvargli la vita",
       "answer": true,
-      "topic": "first-aid-general",
+      "topic": "first_aid",
       "source_page": 15
     },
     {
       "number": 62,
       "question_it": "Soccorrere subito un ferito della strada può evitare che subisca ulteriori danni fisici",
       "answer": true,
-      "topic": "first-aid-general",
+      "topic": "first_aid",
       "source_page": 15
     },
     {
       "number": 63,
       "question_it": "Soccorrere un ferito della strada non è un obbligo imposto dalla legge, ma solo un dovere morale",
       "answer": false,
-      "topic": "first-aid-general",
+      "topic": "first_aid",
       "source_page": 15
     },
     {
       "number": 64,
       "question_it": "Bisogna soccorrere un ferito della strada solo se si considera grave l'incidente",
       "answer": false,
-      "topic": "first-aid-general",
+      "topic": "first_aid",
       "source_page": 15
     },
     {
       "number": 65,
       "question_it": "Non è obbligatorio soccorrere un ferito della strada, se per farlo, si crea intralcio alla circolazione",
       "answer": false,
-      "topic": "first-aid-general",
+      "topic": "first_aid",
       "source_page": 15
     },
     {
       "number": 67,
       "question_it": "Non è obbligatorio soccorrere un ferito della strada, per non mettere a repentaglio la propria sicurezza",
       "answer": false,
-      "topic": "first-aid-general",
+      "topic": "first_aid",
       "source_page": 16
     },
     {
       "number": 68,
       "question_it": "Il fine del primo soccorso è quello di cercare di mantenere in vita il ferito con semplici e immediati interventi",
       "answer": true,
-      "topic": "primo_soccorso",
+      "topic": "first_aid",
       "source_page": 16
     },
     {
       "number": 73,
       "question_it": "Nell'intervento di primo soccorso bisogna allontanare in ogni caso il ferito dal posto in cui si trova",
       "answer": false,
-      "topic": "primo_soccorso",
+      "topic": "first_aid",
       "source_page": 16
     },
     {
       "number": 74,
       "question_it": "Durante un intervento di primo soccorso non bisogna mai toccare il ferito se non è ancora arrivata la polizia",
       "answer": false,
-      "topic": "first-aid-general",
+      "topic": "first_aid",
       "source_page": 16
     },
     {
       "number": 75,
       "question_it": "Se un infortunato della strada ha una ferita sanguinante la si deve coprire con materiale sterile o quanto più possibile pulito, per bloccare il sanguinamento",
       "answer": true,
-      "topic": "first-aid-wounds",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
       "number": 76,
       "question_it": "Se un infortunato della strada ha una ferita sanguinante, sporca di terra, bisogna lavarla quanto prima con acqua pulita",
       "answer": true,
-      "topic": "first-aid-wounds",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
       "number": 77,
       "question_it": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguinante, con presenza di corpi estranei conficcati, non bisogna toglierli dalla ferita",
       "answer": true,
-      "topic": "primo_soccorso_ferite",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
       "number": 78,
       "question_it": "Se un infortunato della strada ha una ferita sanguinante, bisogna tamponarla con garze sterili o panni puliti",
       "answer": true,
-      "topic": "first-aid-wounds",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
       "number": 79,
       "question_it": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguinante, si devono togliere subito gli eventuali corpi estranei in essa presenti e, successivamente, coprire la ferita",
       "answer": false,
-      "topic": "primo_soccorso_ferite",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
       "number": 80,
       "question_it": "Se un infortunato della strada ha una ferita sanguinante ed è incosciente, bisogna dargli da bere acqua o tè",
       "answer": false,
-      "topic": "primo_soccorso_ferite",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
       "number": 81,
       "question_it": "Se un infortunato della strada ha una ferita sanguinante non bisogna coprirla, per facilitare l'arresto spontaneo del sangue",
       "answer": false,
-      "topic": "primo_soccorso_ferite",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
       "number": 82,
       "question_it": "Se un infortunato della strada ha una ferita sanguinante si deve versarvi sopra acqua calda, per fermare il sanguinamento",
       "answer": false,
-      "topic": "primo_soccorso_ferite",
+      "topic": "first_aid_wounds",
       "source_page": 16
     },
     {
-      "number": 83,
-      "question_it": "Se un infortunato della strada ha abbondante emoragggia esterna, si deve tamponare subito la eferita, facendo pressione con del materiale pulito o possibilmente sterile",
+      "number": 66,
+      "question_it": "Se un infortunato della strada ha abbondante emorragia esterna, si deve tamponare subito la ferita, facendo pressione con del materiale pulito o possibilmente sterile",
       "answer": true,
-      "topic": "primo_soccorso_emorragia",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 84,
       "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve tamponare subito la ferita, facendo pressione con del materiale pulito o possibilmente sterile",
       "answer": true,
-      "topic": "primo_soccorso_emorragia",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 85,
       "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna cercare di arrestare la fuoriuscita del sangue",
       "answer": true,
-      "topic": "primo_soccorso_emorragia",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 83,
       "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna tamponare la ferita e chiamare subito i soccorsi",
       "answer": true,
-      "topic": "first-aid-hemorrhage",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 86,
       "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna è opportuno, se possibile, mettere il ferito in posizione seduta o sdraiata, in attesa che arrivino i soccorsi",
       "answer": true,
-      "topic": "first-aid-hemorrhage",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 87,
       "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna solo medicare la ferita",
       "answer": false,
-      "topic": "first-aid-hemorrhage",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 88,
       "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve coprire la ferita e far camminare l'infortunato",
       "answer": false,
-      "topic": "primo_soccorso_emorragia",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 89,
       "question_it": "Se un infortunato della strada ha un'abbondante emorragia esterna non si può assolutamente dargli da bere acqua",
       "answer": false,
-      "topic": "first-aid-hemorrhage",
+      "topic": "first_aid_hemorrhage",
       "source_page": 16
     },
     {
       "number": 90,
       "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio (scheggia di vetro, legno o altro), bisogna bendarglielo, senza procedere ad altre manovre",
       "answer": true,
-      "topic": "first-aid-eye",
+      "topic": "first_aid_eye",
       "source_page": 16
     },
     {
       "number": 91,
       "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna consigliargli di non toccare l'occhio danneggiato, per evitare danni maggiori",
       "answer": true,
-      "topic": "first-aid-eye",
+      "topic": "first_aid_eye",
       "source_page": 16
     },
     {
       "number": 92,
       "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna bendarglielo, evitando di toccarlo fino all'intervento dello specialista",
       "answer": true,
-      "topic": "first-aid-eye",
+      "topic": "first_aid_eye",
       "source_page": 16
     },
     {
       "number": 93,
       "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna cercare sempre e comunque di toglierglielo",
       "answer": false,
-      "topic": "primo_soccorso_occhio",
+      "topic": "first_aid_eye",
       "source_page": 17
     },
     {
       "number": 94,
       "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna costringerlo a tenere gli occhi aperti, per evitare altre lesioni",
       "answer": false,
-      "topic": "first-aid-eye",
+      "topic": "first_aid_eye",
       "source_page": 17
     },
     {
       "number": 95,
       "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio, bisogna massaggiargli delicatamente la palpebra, per favorire la lacrimazione",
       "answer": false,
-      "topic": "primo_soccorso_occhio",
+      "topic": "first_aid_eye",
       "source_page": 17
     },
     {
       "number": 96,
       "question_it": "Se ad un infortunato della strada è entrato un corpo estraneo in un occhio non bisogna mai bendargli l'occhio ferito",
       "answer": false,
-      "topic": "primo_soccorso_occhio",
+      "topic": "first_aid_eye",
       "source_page": 17
     },
     {
       "number": 97,
       "question_it": "Lo stato di shock si manifesta con pelle molto pallida e fredda",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 98,
       "question_it": "Lo stato di shock si manifesta con presenza di sudore freddo alla fronte",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 99,
       "question_it": "Lo stato di shock si manifesta con presenza di brividi, pelle molto pallida e sudorazione fredda",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 100,
       "question_it": "Lo stato di shock si manifesta con pelle molto pallida, sudorazione fredda, frequenti battiti del cuore",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 101,
       "question_it": "Lo stato di shock può manifestarsi con improvvisa pronuncia di frasi e parole senza senso",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 102,
       "question_it": "Lo stato di shock si manifesta sempre con un forte aumento della temperatura corporea",
       "answer": false,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 103,
       "question_it": "Lo stato di shock si manifesta con ampie macchie scure sulla pelle",
       "answer": false,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
@@ -706,21 +706,21 @@
       "number": 105,
       "question_it": "Un ferito in stato di shock va messo a terra e, se possibile, con le gambe sollevate",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 106,
       "question_it": "Un ferito in stato di shock va coperto come meglio possibile, per evitare che si raffreddi",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
       "number": 107,
       "question_it": "Un ferito in stato di shock va disteso, tenendo possibilmente le gambe sollevate",
       "answer": true,
-      "topic": "stato_di_shock",
+      "topic": "shock",
       "source_page": 17
     },
     {
@@ -741,98 +741,98 @@
       "number": 110,
       "question_it": "In presenza di un ferito in stato di shock, occorre dargli piccoli schiaffi su guance e gambe, per riattivargli la circolazione del sangue",
       "answer": false,
-      "topic": "stato_di_shock_incoscienza",
+      "topic": "shock_unconsciousness",
       "source_page": 17
     },
     {
       "number": 111,
       "question_it": "In presenza di un ferito in stato di shock, occorre fargli bere piccole quantità di superalcolici",
       "answer": false,
-      "topic": "stato_di_shock_incoscienza",
+      "topic": "shock_unconsciousness",
       "source_page": 17
     },
     {
       "number": 112,
       "question_it": "Se un ferito della strada è in stato di incoscienza, bisogna verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome",
       "answer": true,
-      "topic": "stato_di_shock_incoscienza",
+      "topic": "shock_unconsciousness",
       "source_page": 17
     },
     {
       "number": 113,
       "question_it": "Se un ferito della strada è in stato di incoscienza, può essere mosso solo se si è certi che non abbia traumi alla colonna vertebrale",
       "answer": true,
-      "topic": "stato_di_shock_incoscienza",
+      "topic": "shock_unconsciousness",
       "source_page": 17
     },
     {
       "number": 114,
       "question_it": "Se un ferito della strada è in stato di incoscienza e fa fatica a respirare, bisogna liberare subito il naso e la bocca da eventuali ostruzioni",
       "answer": true,
-      "topic": "first-aid-unconscious",
+      "topic": "first_aid_unconscious",
       "source_page": 17
     },
     {
       "number": 115,
       "question_it": "Se un ferito della strada è in stato di incoscienza, bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza",
       "answer": true,
-      "topic": "incoscienza",
+      "topic": "unconsciousness",
       "source_page": 17
     },
     {
       "number": 116,
       "question_it": "Se un ferito della strada è in stato di incoscienza, bisogna somministrargli bevande alcoliche",
       "answer": false,
-      "topic": "incoscienza",
+      "topic": "unconsciousness",
       "source_page": 17
     },
     {
       "number": 117,
       "question_it": "Se un ferito della strada è in stato di incoscienza bisogna bloccargli le mani",
       "answer": false,
-      "topic": "first-aid-unconscious",
+      "topic": "first_aid_unconscious",
       "source_page": 17
     },
     {
       "number": 118,
       "question_it": "Se un ferito della strada è in stato di incoscienza bisogna fasciargli la testa",
       "answer": false,
-      "topic": "first-aid-unconscious",
+      "topic": "first_aid_unconscious",
       "source_page": 17
     },
     {
       "number": 119,
       "question_it": "Se un ferito della strada è in stato di incoscienza bisogna metterlo in posizione semiseduta",
       "answer": false,
-      "topic": "first-aid-unconscious",
+      "topic": "first_aid_unconscious",
       "source_page": 17
     },
     {
       "number": 120,
       "question_it": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, bisogna cercare di facilitargli la respirazione mettendolo semi-seduto",
       "answer": true,
-      "topic": "chest-trauma",
+      "topic": "chest_trauma",
       "source_page": 17
     },
     {
       "number": 121,
       "question_it": "Se un infortunato della strada è cosciente, ma ha avuto un trauma della gabbia toracica, con ferita visibile e profonda, bisogna comprimere subito con un panno pulito",
       "answer": false,
-      "topic": "chest-trauma",
+      "topic": "chest_trauma",
       "source_page": 17
     },
     {
       "number": 122,
       "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna assisterlo fino all'arrivo del soccorso medico",
       "answer": true,
-      "topic": "chest-trauma",
+      "topic": "chest_trauma",
       "source_page": 17
     },
     {
       "number": 123,
       "question_it": "Se un infortunato della strada ha avuto un trauma della gabbia toracica, bisogna fargli fare profondi respiri",
       "answer": false,
-      "topic": "chest-trauma",
+      "topic": "chest_trauma",
       "source_page": 17
     },
     {
@@ -3023,686 +3023,686 @@
       "number": 436,
       "question_it": "La responsabilità penale connessa al sinistro stradale è esclusa qualora intervenga l'impresa di assicurazione che risarcisca adeguatamente il danneggiato",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 437,
       "question_it": "La responsabilità penale connessa al sinistro stradale sorge qualora esso provochi lesioni gravi a persone",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 438,
       "question_it": "La responsabilità penale connessa al sinistro stradale sorge anche in caso di omicidio colposo",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 439,
       "question_it": "La responsabilità penale connessa al sinistro stradale sorge allorché vengano violate norme contemplate dal Codice Penale",
       "answer": true,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 440,
       "question_it": "La responsabilità penale connessa al sinistro stradale sorge in ogni caso in cui sia violato il Codice della strada",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 441,
       "question_it": "La responsabilità penale connessa al sinistro stradale sorge quando il veicolo vada completamente distrutto",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 442,
       "question_it": "La responsabilità penale connessa al sinistro stradale sorge in tutti i casi di danni alle persone o alle cose",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 443,
       "question_it": "La responsabilità penale connessa al sinistro stradale sorge nei confronti del proprietario del veicolo se il conducente non è stato identificato",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 444,
       "question_it": "La responsabilità civile connessa al sinistro stradale grava sul proprietario e sul conducente del veicolo",
       "answer": true,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 445,
       "question_it": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico del proprietario del veicolo, se si tratta di responsabilità penale",
       "answer": false,
-      "topic": "responsabilita_sinistro",
+      "topic": "accident_liability",
       "source_page": 30
     },
     {
       "number": 446,
       "question_it": "I quadricicli non leggeri a manubrio e con carrozzeria aperta possono essere condotti senza casco",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 447,
       "question_it": "Gli addetti a servizi di polizia stradale vengono riconosciuti dalla \"paletta\" bianca e nera",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 448,
       "question_it": "Il motociclista che parte dal margine della carreggiata e si immette nel flusso della circolazione può indossare il casco dopo avere concluso tale manovra",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 449,
       "question_it": "Durante le operazioni di presegnalazione con il segnale mobile di pericolo il conducente deve rendersi visibile indossando il giubbotto o le bretelle retroriflettenti ad alta visibilità",
       "answer": true,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 450,
       "question_it": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità da usare durante le operazioni di presegnalazione con il segnale mobile di pericolo devono essere di tipo approvato",
       "answer": true,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 451,
       "question_it": "Durante le operazioni di presegnalazione con il segnale mobile di pericolo il conducente deve indossare il giubbotto ad alta visibilità anche se si trova sulle corsie di emergenza o sulle piazzole di sosta",
       "answer": true,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 452,
       "question_it": "Per effettuare le operazioni di presegnalazione con il segnale mobile di pericolo è vietato al conducente scendere dal veicolo e circolare sulla strada senza indossare il giubbotto ad alta visibilità",
       "answer": true,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 453,
       "question_it": "Durante le operazioni di presegnalazione con il segnale mobile di pericolo è facoltativo l'uso del giubbotto o delle bretelle retroriflettenti ad alta visibilità",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 454,
       "question_it": "Il conducente deve indossare il giubbotto ad alta visibilità di notte, anche nei centri abitati, qualora debba fermarsi sulla carreggiata perché il suo veicolo ha un guasto",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 455,
       "question_it": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità possono sostituire, in ogni caso, il triangolo mobile di pericolo",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 456,
       "question_it": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità possono essere solo di colore giallo",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 457,
       "question_it": "Il giubbotto retroriflettente ad alta visibilità protegge il conducente anche da rischi chimici, calore, fuoco ed elettricità",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 458,
       "question_it": "All'interno del veicolo bisogna tenere giubbotti o bretelle retroriflettenti ad alta visibilità, in numero pari a quello dei posti disponibili",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 459,
       "question_it": "L'obbligo di indossare il giubbotto ad alta visibilità si ha quando si sosta fuori dai centri abitati, mentre le bretelle retroriflettenti vanno indossate nelle aree urbane",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 460,
       "question_it": "Il giubbotto retroriflettente ad alta visibilità serve per chiedere aiuto agli automobilisti in transito",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 461,
       "question_it": "Il giubbotto retroriflettente ad alta visibilità è utile solo quando si deve sostituire una ruota forata",
       "answer": false,
-      "topic": "giubbotto_alta_visibilita",
+      "topic": "high_visibility_vest",
       "source_page": 30
     },
     {
       "number": 462,
       "question_it": "Il casco è obbligatorio per i conducenti di ciclomotori a due ruote",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 30
     },
     {
       "number": 463,
       "question_it": "Il casco è obbligatorio per i conducenti di motocicli non dotati di cellula di sicurezza e di dispositivi di ritenuta",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 464,
       "question_it": "Il casco è obbligatorio per il passeggero di un motociclo privo di cellula di sicurezza e sistemi di ritenuta",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 465,
       "question_it": "Il casco è obbligatorio per il passeggero di un ciclomotore a due ruote, anche se maggiorenne",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 466,
       "question_it": "Il casco è obbligatorio per i conducenti di ciclomotori a due ruote, solo se minorenni",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 467,
       "question_it": "Il casco non è obbligatorio per i conducenti di ciclomotori a due ruote, titolari di patente della categoria B",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 468,
       "question_it": "Il casco non è obbligatorio per i conducenti di ciclomotori a due ruote",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 469,
       "question_it": "Il casco subisce un processo di invecchiamento dovuto a luce e calore",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 470,
       "question_it": "La pulizia del casco deve essere effettuata con detersivi non corrosivi",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 471,
       "question_it": "Il casco non deve essere pulito con solventi",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 472,
       "question_it": "Il casco non deve essere pulito con benzina",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 473,
       "question_it": "L'uso del casco è necessario per ridurre gli effetti di eventuali urti alla testa",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 474,
       "question_it": "Il casco integrale protegge anche il viso da traumi e lesioni in caso di incidente",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 475,
       "question_it": "È bene che il casco sia dotato di visiera",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 476,
       "question_it": "La visiera del casco protegge il viso e gli occhi da impatti con insetti",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 477,
       "question_it": "Il casco deve essere di taglia corretta",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 478,
       "question_it": "Il casco deve essere sostituito dopo che abbia subito un forte urto, anche se non mostra deformazioni sulla calotta esterna",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 479,
       "question_it": "La robustezza della calotta esterna del casco potrebbe essere compromessa da solventi presenti in vernici o colle",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 480,
       "question_it": "Durante la marcia, il casco deve essere sempre correttamente allacciato",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 481,
       "question_it": "Indossare il casco in modo errato o senza averlo correttamente allacciato può comportare gravi rischi alla salute in caso di caduta o incidente",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 482,
       "question_it": "Il casco deve essere indossato anche per spostamenti brevi e a bassa velocità",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 483,
       "question_it": "Il casco deve essere indossato anche a bordo dei quadricicli a motore privi di carrozzeria (Quad)",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 484,
       "question_it": "La visiera del casco deve essere sostituita se rigata o danneggiata",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 485,
       "question_it": "La visiera del casco deve garantire la perfetta visione con qualunque condizione di luce o illuminazione",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 486,
       "question_it": "Il sistema di aerazione del casco consente di limitare il pericolo di appannamento della visiera",
       "answer": true,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 487,
       "question_it": "Sul casco possono essere applicati adesivi di qualunque tipo, purché non coprano la visiera",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 488,
       "question_it": "Il casco deve essere periodicamente pulito con benzina o acquaragia per sgrassarlo ed eliminare resti di insetti",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 489,
       "question_it": "Il casco deve essere completamente allacciato solo sui percorsi extraurbani",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 490,
       "question_it": "Quando si circola nelle zone a velocità controllata inferiore a 30 km/h, non è obbligatorio l'uso del casco",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 491,
       "question_it": "L'uso del casco è obbligatorio su qualunque quadriciclo a motore",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 492,
       "question_it": "Il casco conserva invariate le sue caratteristiche protettive per periodi lunghissimi, di oltre venti anni",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 493,
       "question_it": "Il casco integrale non può essere utilizzato quando si circola nei centri urbani ad alta densità di circolazione",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 494,
       "question_it": "Il casco integrale è inutile se si circola a bordo di un ciclomotore a due ruote",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 495,
       "question_it": "L'obbligo dell'uso del casco non riguarda i maggiorenni con più di tre anni di esperienza di guida",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 496,
       "question_it": "L'uso del casco durante la marcia diventa facoltativo quando la temperatura dell'aria è superiore ai trenta gradi",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 497,
       "question_it": "La visiera del casco peggiora notevolmente la visibilità e quindi va usata il meno possibile",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 498,
       "question_it": "La calotta del casco può essere riparata con nastro adesivo di tipo speciale, se presenta una rottura inferiore ai tre centimetri",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 499,
       "question_it": "La visiera del casco può essere riparata con nastro adesivo, purché sia di tipo ultra trasparente",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 500,
       "question_it": "I caschi da utilizzare alla guida dei ciclomotori non necessitano di omologazione",
       "answer": false,
-      "topic": "casco",
+      "topic": "helmet",
       "source_page": 31
     },
     {
       "number": 501,
       "question_it": "Gli stivali ad uso motociclistico permettono una giusta protezione di piedi e caviglie quando si è alla guida di veicolo a due ruote",
       "answer": true,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 502,
       "question_it": "Gli stivali ad uso motociclistico riducono gli effetti di distorsioni in caso di appoggio impreciso dei piedi e proteggono le articolazioni della caviglia dal freddo",
       "answer": true,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 503,
       "question_it": "Gli stivali ad uso motociclistico sono privi di nastri liberi o stringhe per evitarne l'aggancio alle pedivelle dei motocicli",
       "answer": true,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 504,
       "question_it": "Gli stivali ad uso motociclistico proteggono i piedi da abrasioni sull'asfalto in caso di caduta",
       "answer": true,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 505,
       "question_it": "Gli stivali ad uso motociclistico sono omologati secondo norme internazionali",
       "answer": true,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 506,
       "question_it": "Le calzature omologate per l'uso motociclistico sono progettate per non scalzarsi in caso di caduta",
       "answer": true,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 507,
       "question_it": "Al posto degli stivali ad uso motociclistico si possono utilizzare scarpe da trekking in alta montagna, perché sono di analoga concezione",
       "answer": false,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 508,
       "question_it": "Gli stivali ad uso motociclistico sono dotati di doppie stringhe per evitare scalzamenti",
       "answer": false,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 509,
       "question_it": "Gli stivali ad uso motociclistico hanno la suola in acciaio",
       "answer": false,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 510,
       "question_it": "Gli stivali ad uso motociclistico coprono la gamba fin sopra il ginocchio per proteggere meglio il conducente in caso di caduta",
       "answer": false,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 511,
       "question_it": "Gli stivali ad uso motociclistico devono essere interamente realizzati in gomma ignifuga",
       "answer": false,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 512,
       "question_it": "Non esistono specifici stivali ad uso motociclistico, pertanto è bene utilizzare calzature robuste del tipo utilizzato per caccia, pesca o alpinismo",
       "answer": false,
-      "topic": "abbigliamento_stivali",
+      "topic": "clothing_boots",
       "source_page": 32
     },
     {
       "number": 513,
       "question_it": "Guidando ciclomotori o motocicli è consigliabile utilizzare guanti protettivi per le mani",
       "answer": true,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 514,
       "question_it": "I guanti da motociclisti omologati proteggono in particolar modo il dorso della mano in caso di impatto con corpi duri",
       "answer": true,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 515,
       "question_it": "I guanti da motociclisti proteggono il palmo della mano in caso di caduta con strisciamento sull'asfalto",
       "answer": true,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 516,
       "question_it": "I guanti da motociclisti garantiscono la giusta sensibilità durante la guida e una presa più sicura sui comandi",
       "answer": true,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 517,
       "question_it": "I guanti da motociclisti possono avere imbottiture diverse a seconda della stagione",
       "answer": true,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 518,
       "question_it": "Quando si circola a bordo di un motociclo, è opportuno indossare gli specifici guanti anche d'estate",
       "answer": true,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 519,
       "question_it": "I guanti ad uso motociclistico hanno speciali sistemi di aggancio per impedire il loro sfilamento in caso di caduta",
       "answer": true,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 520,
       "question_it": "Non esistono guanti ad uso motociclistico di tipo omologato",
       "answer": false,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 521,
       "question_it": "I guanti ad uso motociclistico possono essere sostituiti dai guanti da sci, ma solo nella stagione fredda",
       "answer": false,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 522,
       "question_it": "Se si guida un motociclo senza guanti si può intervenire più rapidamente sui comandi",
       "answer": false,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 523,
       "question_it": "I guanti ad uso motociclistico si riconoscono perché di colore nero e con una sagoma di moto stampigliata sul polso",
       "answer": false,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 524,
       "question_it": "I guanti ad uso motociclistico coprono anche il gomito per proteggere meglio in caso di caduta",
       "answer": false,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 525,
       "question_it": "I guanti ad uso motociclistico non sono idonei alla guida di ciclomotori a due ruote",
       "answer": false,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 526,
       "question_it": "I guanti ad uso motociclistico hanno come principale scopo quello di proteggere dal freddo, pertanto è inutile usarli l'estate",
       "answer": false,
-      "topic": "guanti",
+      "topic": "gloves",
       "source_page": 32
     },
     {
       "number": 527,
       "question_it": "Le giacche ad uso motociclistico garantiscono un'adeguata protezione all'abrasione in caso di scivolamento sull'asfalto",
       "answer": true,
-      "topic": "giacca_abbigliamento",
+      "topic": "jacket_clothing",
       "source_page": 32
     },
     {
       "number": 528,
       "question_it": "Le giacche ad uso motociclistico hanno inserti rigidi protettivi in corrispondenza delle articolazioni",
       "answer": true,
-      "topic": "giacca_abbigliamento",
+      "topic": "jacket_clothing",
       "source_page": 32
     },
     {
       "number": 529,
       "question_it": "Gli indumenti ad uso motociclistico omologati sono sottoposti a prove di resistenza al taglio e all'abrasione da impatto",
       "answer": true,
-      "topic": "giacca_abbigliamento",
+      "topic": "jacket_clothing",
       "source_page": 32
     },
     {
       "number": 530,
       "question_it": "Gli indumenti ad uso motociclistico omologati sono sottoposti a prove di resistenza al lavaggio",
       "answer": false,
-      "topic": "giacca_abbigliamento",
+      "topic": "jacket_clothing",
       "source_page": 32
     },
     {
       "number": 531,
       "question_it": "Le giacche ad uso motociclistico non sono previste per utilizzo estivo",
       "answer": false,
-      "topic": "giacca_abbigliamento",
+      "topic": "jacket_clothing",
       "source_page": 32
     },
     {
       "number": 532,
       "question_it": "Le giacche ad uso motociclistico, per essere omologate devono essere unicamente di colore nero",
       "answer": false,
-      "topic": "giacca_abbigliamento",
+      "topic": "jacket_clothing",
       "source_page": 32
     },
     {
       "number": 533,
       "question_it": "L'abbigliamento del motociclista non incide sulla sua visibilità nel traffico",
       "answer": false,
-      "topic": "giacca_abbigliamento",
+      "topic": "jacket_clothing",
       "source_page": 32
     }
   ]

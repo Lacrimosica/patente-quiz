@@ -1,6 +1,6 @@
 # Patente Quiz
 
-A local-first study tool for Italian driving license (patente) theory exam practice questions, built from the Alpha Test practice book. Tracks which questions you've gotten wrong, how confident you are, and how often you've reviewed them, so review time goes toward weak spots instead of everything.
+A local-first study tool for Italian driving license (patente) theory exam practice questions. Tracks which questions you've gotten wrong, how confident you are, and how often you've reviewed them, so review time goes toward weak spots instead of everything.
 
 Started as a personal tool, intended to be released open source once the core is stable.
 

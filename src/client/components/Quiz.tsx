@@ -1,8 +1,11 @@
 import { useState } from "react";
 import QuestionCard from "./QuestionCard";
 import type { QuestionStats } from "./QuestionCard";
+import Menu from "./Menu";
 import { useQuestions } from "../hooks/useQuestions";
 import { useTopics } from "../hooks/useTopics";
+import { topicLabel } from "../topicLabels";
+import { summarizeProgress } from "../progress";
 import { submitAnswer, setFavorite } from "../hooks/useAuth";
 import type { QuestionRow, ReviewState, User } from "../../shared/types";
 
@@ -26,6 +29,8 @@ interface Props {
 }
 
 export default function Quiz({ user, onLogout }: Props) {
+  // Which screen we're on: the pre-quiz menu (stats overview) or the card flow.
+  const [view, setView] = useState<"menu" | "quiz">("menu");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState<boolean | null>(null);
   const [topic, setTopic] = useState<string | null>(null); // State to track the selected topic
@@ -39,18 +44,59 @@ export default function Quiz({ user, onLogout }: Props) {
   // question — takes precedence over the (stale) values loaded with the list.
   const [freshReview, setFreshReview] = useState<ReviewState | null>(null);
   const [jumpValue, setJumpValue] = useState(""); // "go to question N" input
-  const { questions, loading, error } = useQuestions({
+  // Answers given this session (questionId → chosen), overlaid on the loaded
+  // list so the coverage bar reflects newly-answered questions live.
+  const [sessionAnswers, setSessionAnswers] = useState<Record<string, boolean>>({});
+  const { questions, loading, error, reload } = useQuestions({
     ...(topic !== null ? { topic } : {}),
     favoritesOnly,
   });
 
   const { topics } = useTopics(); // Custom hook to fetch topics
 
-  const progress = questions.length > 0
-    ? Math.round((currentIndex / questions.length) * 100)
+  // Accumulated coverage of the whole bank: overlay this session's answers onto
+  // the loaded review state, then summarize. This makes the bar start at what
+  // you've already covered and grow as you answer new questions.
+  const coverage = summarizeProgress(
+    questions.map((q) => {
+      const chosen = sessionAnswers[q.id];
+      if (chosen === undefined) return q;
+      return {
+        ...q,
+        times_reviewed: Math.max(1, q.times_reviewed ?? 0),
+        last_answer: chosen ? 1 : 0,
+      };
+    })
+  );
+  const coveragePercent = coverage.total > 0
+    ? Math.round((coverage.answered / coverage.total) * 100)
     : 0;
 
   const currentQuestion = questions[currentIndex];
+
+  // Begin the card flow from the top of the current list.
+  function startQuiz(atIndex = 0) {
+    setCurrentIndex(atIndex);
+    setScore(0);
+    setUserAnswer(null);
+    setFreshReview(null);
+    setSessionAnswers({});
+    setView("quiz");
+  }
+
+  // Return to the menu. Reset to the whole bank and refetch so the overview
+  // reflects the answers just persisted this session.
+  function backToMenu() {
+    setTopic(null);
+    setFavoritesOnly(false);
+    setCurrentIndex(0);
+    setScore(0);
+    setUserAnswer(null);
+    setFreshReview(null);
+    setSessionAnswers({});
+    reload();
+    setView("menu");
+  }
 
   function handleTopicChange(value: string) {
     setTopic(value === "" ? null : value);  // "" at the DOM edge → null in state
@@ -62,6 +108,8 @@ export default function Quiz({ user, onLogout }: Props) {
 
   async function handleAnswer(choice: boolean) {
     setUserAnswer(choice);
+    // Record locally so the coverage bar counts this question immediately.
+    setSessionAnswers((prev) => ({ ...prev, [currentQuestion.id]: choice }));
     // Persist the answer; the server is the source of truth for correctness.
     try {
       const result = await submitAnswer(currentQuestion.id, choice);
@@ -123,6 +171,18 @@ export default function Quiz({ user, onLogout }: Props) {
 
   if (loading) return <p className="text-lg font-semibold p-4 rounded-lg m-auto text-gray-500" >Caricamento...</p>;
   if (error) return <p className="text-lg font-semibold p-4 rounded-lg m-auto text-red-500">Errore: {error}</p>;
+
+  if (view === "menu") {
+    return (
+      <Menu
+        username={user.username}
+        questions={questions}
+        onStart={() => startQuiz()}
+        onLogout={onLogout}
+      />
+    );
+  }
+
   const isComplete = questions.length > 0 && currentIndex >= questions.length;
 
   if (isComplete) {
@@ -139,13 +199,13 @@ export default function Quiz({ user, onLogout }: Props) {
           <p className="text-gray-600">{score} corretti su {questions.length}</p>
         </div>
 
-        {/* restart button */}
+        {/* back to the menu, where progress stats are refreshed */}
         <button
-          onClick={() => window.location.reload()}
+          onClick={backToMenu}
           className="mt-6 w-full py-3 rounded-lg bg-gray-900 text-white font-medium
                    hover:bg-gray-700 transition-colors cursor-pointer"
         >
-          Ricomincia
+          ← Torna al menu
         </button>
       </main>
     );
@@ -154,7 +214,12 @@ export default function Quiz({ user, onLogout }: Props) {
     return (
       <main className="max-w-xl mx-auto px-4 py-10">
         <div className="flex items-center justify-between mb-2">
-          <h1 className="text-2xl font-bold text-gray-900">Patente Quiz</h1>
+          <button
+            onClick={backToMenu}
+            className="text-sm text-gray-500 hover:text-gray-900 cursor-pointer"
+          >
+            ← Menu
+          </button>
           <div className="flex items-center gap-3 text-sm">
             <span className="text-gray-500">{user.username}</span>
             <button
@@ -166,16 +231,16 @@ export default function Quiz({ user, onLogout }: Props) {
           </div>
         </div>
 
-        {/* progress bar */}
+        {/* coverage bar: how much of the whole bank you've answered */}
         <div className="mb-6">
           <div className="flex justify-between text-sm text-gray-500 mb-1">
-            <span>{currentIndex} / {questions.length}</span>
-            <span>{score} corretti</span>
+            <span>{coverage.answered} / {coverage.total} viste</span>
+            <span>{coverage.correct} corrette</span>
           </div>
           <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
             <div
               className="h-full bg-green-500 transition-all duration-300"
-              style={{ width: `${progress}%` }}
+              style={{ width: `${coveragePercent}%` }}
             />
           </div>
 
@@ -187,7 +252,7 @@ export default function Quiz({ user, onLogout }: Props) {
         >
           <option value="">Tutti gli argomenti</option>
           {topics.map((t) => (
-            <option key={t} value={t}>{t}</option>
+            <option key={t} value={t}>{topicLabel(t)}</option>
           ))}
         </select>
 

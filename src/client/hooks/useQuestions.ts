@@ -11,6 +11,9 @@ export function useQuestions(filters: Filters = {}) {
   const [questions, setQuestions] = useState<QuestionRow[]>([]);
   const [loading,   setLoading]   = useState(true);
   const [error,     setError]     = useState<string | null>(null);
+  // Bumping this refetches with the same filters — used to refresh menu stats
+  // after a quiz session persists new answers server-side.
+  const [nonce,     setNonce]     = useState(0);
 
   useEffect(() => {
     setLoading(true);
@@ -38,7 +41,9 @@ export function useQuestions(filters: Filters = {}) {
       }
     }
     load();
-  }, [filters.chapter, filters.topic, filters.favoritesOnly]);
+  }, [filters.chapter, filters.topic, filters.favoritesOnly, nonce]);
 
-  return { questions, loading, error };
+  const reload = () => setNonce((n) => n + 1);
+
+  return { questions, loading, error, reload };
 }
